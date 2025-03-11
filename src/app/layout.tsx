@@ -21,7 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <MenuOne /> {/* Menu intégré ici  */}
+      <header id="header">
+      <MenuOne /> {/* Menu intégré ici  */}
+        </header>
+        
         <main>{children}</main>
         <Footer /> {/* Footer intégré ici */}
       </body>

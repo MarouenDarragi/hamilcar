@@ -67,7 +67,7 @@ const MenuOne = () => {
               </li>
               <li
                 className={`nav-item h-full flex items-center justify-center ${
-                  pathname.includes("/about/") ? "active" : ""
+                  pathname.includes("/about") ? "active" : ""
                 }`}
               >
                 <Link
@@ -149,7 +149,7 @@ const MenuOne = () => {
 
               <li
                 className={`nav-item h-full flex items-center justify-center ${
-                  pathname.includes("/contact/") ? "active" : ""
+                  pathname.includes("/contact") ? "active" : ""
                 }`}
               >
                 <Link
