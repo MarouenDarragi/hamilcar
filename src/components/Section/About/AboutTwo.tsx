@@ -49,7 +49,7 @@ const AboutTwo = () => {
                 }`}
               >
                 <div className="title text-secondary mt-4">
-                  Hamilcar est né d'une vision passionnée pour l'innovation et
+                  Hamilcar est né dune vision passionnée pour linnovation et
                   la transformation numérique. Inspiré par le célèbre général
                   carthaginois Hamilcar Barca, connu pour sa stratégie et son
                   leadership, notre entreprise a été créée pour guider les
@@ -95,7 +95,7 @@ const AboutTwo = () => {
                 <div className="title body3 text-secondary mt-4">
                   Nous visons à propulser le succès de nos clients grâce à des
                   services-conseils de haute qualité, portés par le
-                  professionnalisme et l'engagement de notre équipe.
+                  professionnalisme et lengagement de notre équipe.
                 </div>
                 <div className="more-infor mt-6">
                   <div className="infor flex items-center gap-3">
@@ -134,7 +134,7 @@ const AboutTwo = () => {
               >
                 <div className="title body3 text-secondary mt-4">
                   Chez Hamilcar, nous croyons que le travail doit être une
-                  source de plaisir et d'accomplissement. Nous cultivons un
+                  source de plaisir et daccomplissement. Nous cultivons un
                   environnement où nos employés partagent des valeurs humaines
                   et se réalisent chaque jour.
                 </div>

@@ -6,7 +6,7 @@ import PartnerOne from "@/components/Section/Partner/PartnerOne";
 import ProjectTwo from "@/components/Section/Project/ProjectTwo";
 import SliderTwo from "@/components/Slider/SliderTwo";
 import serviceData from "@/data/service.json";
-import ServiceTwo from "@/components/Section/Service/ServiceTwo";
+import ServiceTwo from "@/components/Section/Service/Expertise";
 import TestimonialTwo from "@/components/Section/Testimonial/TestimonialTwo";
 import blogData from "@/data/blog.json";
 import BlogOne from "@/components/Section/Blog/BlogOne";

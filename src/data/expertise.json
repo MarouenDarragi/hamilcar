@@ -1,12 +1,13 @@
 [
     {
+        "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "icon": "icon-coin-chair",
         "category": "Secteur Public",
         "title": "Secteur Public",
         "desc": "Experience the excitement and potential of the cryptocurrency market with our expert trading services.",
         "shortDesc": "Avec une connaissance approfondie du contexte gouvernemental, nous relevons les défis numériques et d'architecture d'entreprise."
     },
-    {
+    {"id": "a1b2c3d4-e5f6-7890-1234-567890cbcdef",
         "icon": "icon-hand-tick",
         "category": "Secteur de la Santé",
         "title": "Secteur de la Santé",
@@ -14,6 +15,7 @@
         "shortDesc": "Nous modernisons la santé publique pour optimiser les opérations et améliorer l'efficacité, répondant ainsi aux attentes élevées des citoyens."
     },
     {
+        "id": "a1b2c2d4-e5f6-7890-1234-567890abcdef",
         "icon": "icon-hand-house",
         "category": "Secteur de l'Éducation",
         "title": "Secteur de l'Éducation",
@@ -21,6 +23,7 @@
         "shortDesc": "Nous accompagnons les établissements éducatifs dans leur transformation numérique, façonnant l'école de demain."
     },
     {
+        "id": "a2b2c3d4-e5f6-7890-1234-567890abcdef",
         "icon": "icon-gear-warning",
         "category": "Secteur de l'Enseignement Supérieur",
         "title": "Secteur de l'Enseignement Supérieur",
@@ -28,6 +31,7 @@
         "shortDesc": "Nous soutenons les institutions d'enseignement supérieur dans leur transition numérique, en proposant des solutions innovantes pour améliorer l'expérience éducative et administrative."
     },
     {
+        "id": "a1b2c3d4-e8f6-7890-1234-567890abcdef",
         "icon": "icon-text-search",
         "category": "Secteur de la Justice",
         "title": "Secteur de la Justice",
@@ -35,6 +39,7 @@
         "shortDesc": "Nous soutenons la modernisation du système judiciaire pour le rendre plus innovant et accessible à tous."
     },
     {
+        "id": "a1b2c3d4-e5f6-7890-1534-567890abcdef",
         "icon": "icon-text-search",
         "category": "Secteur des Assurances",
         "title": "Secteur des Assurances",

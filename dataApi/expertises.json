@@ -1,0 +1,50 @@
+[
+  {
+    "id": "eee0008b-2b3a-474d-9be3-8b285e148e5f",
+    "icon": "BuildingOffice",
+    "category": "Secteur Public",
+    "title": "Secteur Public",
+    "desc": "Fort d’une connaissance approfondie du contexte gouvernemental, nous aidons les institutions publiques à relever les défis de la transformation numérique et de l’architecture d’entreprise. Grâce à notre expertise, nous concevons et mettons en place des solutions innovantes visant à moderniser les services administratifs, optimiser les processus internes et améliorer l’interaction avec les citoyens. Notre approche intègre les meilleures pratiques du secteur pour garantir des systèmes sécurisés, performants et adaptés aux exigences en constante évolution des administrations publiques",
+    "shortDesc": "Avec une connaissance approfondie du contexte gouvernemental, nous relevons les défis numériques et d'architecture d'entreprise."
+  },
+  {
+    "id": "3b9ac772-a095-46ed-974f-e6fed6a11887",
+    "icon": "Hospital",
+    "category": "Secteur de la Santé",
+    "title": "Secteur de la Santé",
+    "desc": "Dans un secteur en constante évolution, nous accompagnons les acteurs de la santé publique dans leur transition numérique afin d’optimiser les opérations, améliorer l’efficacité des services et renforcer la qualité des soins. Grâce à des solutions innovantes, nous aidons les établissements de santé à moderniser leurs infrastructures, faciliter la gestion des données médicales et améliorer la coordination entre les différents intervenants. Notre approche vise à répondre aux attentes croissantes des citoyens en garantissant des services plus accessibles, performants et sécurisés",
+    "shortDesc": "Nous modernisons la santé publique pour optimiser les opérations et améliorer l'efficacité, répondant ainsi aux attentes élevées des citoyens."
+  },
+  {
+    "icon": "GraduationCap",
+    "category": "Secteur de l'Éducation",
+    "title": "Secteur de l'Éducation",
+    "desc": "\"Nous soutenons les établissements éducatifs dans leur transformation numérique en intégrant des technologies innovantes pour moderniser l’apprentissage et la gestion administrative. En repensant les méthodes pédagogiques et en optimisant l’accès aux ressources numériques, nous contribuons à créer un environnement éducatif plus interactif, inclusif et performant. Notre approche vise à préparer l’école de demain en offrant aux élèves, enseignants et administrateurs des outils adaptés aux défis de l’éducation moderne",
+    "shortDesc": "Nous accompagnons les établissements éducatifs dans leur transformation numérique, façonnant l'école de demain.",
+    "id": "6bfcc716-24b4-4ed1-88f6-2ab7ac46f5cd"
+  },
+  {
+    "icon": "Student",
+    "category": "Secteur de l'Enseignement Supérieur",
+    "title": "Secteur de l'Enseignement Supérieur",
+    "desc": "Nous accompagnons les institutions d’enseignement supérieur dans leur transition numérique en mettant en place des solutions innovantes adaptées aux enjeux académiques et administratifs. Grâce à l’intégration de technologies avancées, nous facilitons l’accès aux ressources pédagogiques, optimisons la gestion des campus et améliorons l’expérience des étudiants et du corps enseignant. Notre approche vise à renforcer la compétitivité des établissements en leur permettant d’adopter des pratiques numériques modernes, tout en garantissant une formation de qualité et une administration efficace.",
+    "shortDesc": "Nous soutenons les institutions d'enseignement supérieur dans leur transition numérique, en proposant des solutions innovantes pour améliorer l'expérience éducative et administrative.",
+    "id": "927b9dbd-0927-4d73-8c36-227cfb00bee1"
+  },
+  {
+    "icon": "Scales",
+    "category": "Secteur de la Justice",
+    "title": "Secteur de la Justice",
+    "desc": "Nous accompagnons la modernisation du système judiciaire en intégrant des solutions numériques qui optimisent les processus, renforcent l’efficacité administrative et facilitent l’accès à la justice pour tous. En développant des outils innovants pour la gestion des dossiers, la digitalisation des procédures et la sécurisation des données, nous contribuons à rendre le système judiciaire plus transparent, rapide et inclusif. Notre approche vise à améliorer l’expérience des professionnels du droit et des citoyens en leur offrant des services accessibles, fiables et conformes aux exigences légales",
+    "shortDesc": "Nous soutenons la modernisation du système judiciaire pour le rendre plus innovant et accessible à tous.",
+    "id": "2f130d3d-3ff3-4766-90d9-044061ffac76"
+  },
+  {
+    "icon": "Bank",
+    "category": "Secteur des Assurances",
+    "title": "Secteur des Assurances",
+    "desc": "-Optimisation des Processus : Amélioration des processus internes pour accroître l'efficacité et réduire les coûts. \n-Expérience Client : Développement de solutions numériques pour améliorer l'expérience client et renforcer la fidélité. \n-Architecture d'Entreprise : Mise en place de pratiques méthodologiques basées sur des référentiels internationaux comme TOGAF, ArchiMate et SAFe, et utilisation d'outils comme Enterprise Architect. \n-Gouvernance des Données : Établissement de politiques et de pratiques pour garantir l'intégrité, la confidentialité et la disponibilité des informations, ainsi que l'élaboration de stratégies de données. \n",
+    "shortDesc": "Nous aidons les compagnies d'assurances à naviguer dans le paysage numérique en constante évolution. Nos services incluent :",
+    "id": "d85d53b8-4916-430e-ad32-5272236bb3e0"
+  }
+]
