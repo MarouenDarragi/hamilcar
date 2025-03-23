@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "category": "fintech",
+        "author": "Bernard",        
+        "position": "CEO, Avitex Inc",        
+        "img": "/images/member/60x60.png",
+        "title": "Variétés de Styles!",
+        "star": 5,
+        "desc": "Travailler avec cette agence a été une véritable révolution pour notre entreprise. Leur équipe est compétente, réactive et toujours prête à se dépasser."
+    },
+    {
+        "id": 2,
+        "category": "technologie",
+        "author": "Leonardo",        
+        "position": "Designer, TechX Corp",        
+        "img": "/images/member/60x60.png",
+        "title": "Félicitations!",
+        "star": 4,
+        "desc": "Votre approche personnalisée et votre suivi ont amélioré ma planification financière. J'apprécie grandement vos services et votre souci du détail dans l'élaboration de vos plans financiers."
+    },
+    {
+        "id": 3,
+        "category": "fintech",
+        "author": "De Rossi",        
+        "position": "CEO, Hivelab Agency",        
+        "img": "/images/member/60x60.png",
+        "title": "Variétés de Styles!",
+        "star": 4,
+        "desc": "Je suis extrêmement satisfait de vos services ! Votre planification financière rigoureuse m'a aidé à gérer efficacement mes actifs et à atteindre mes objectifs financiers."
+    },
+    {
+        "id": 4,
+        "category": "IT",
+        "author": "Benjamin",        
+        "position": "Chef Projet, Avitex Inc",        
+        "img": "/images/member/60x60.png",
+        "title": "Félicitations!",
+        "star": 5,
+        "desc": "J'apprécie énormément vos services et l'attention que vous portez à l'élaboration de vos plans financiers. Merci de m'avoir aidé à façonner mon avenir financier !"
+    },
+    {
+        "id": 5,
+        "category": "fintech",
+        "author": "Alexander",        
+        "position": "Designer, ThreeS Corp",        
+        "img": "/images/member/60x60.png",
+        "title": "Félicitations!",
+        "star": 5,
+        "desc": "J'étais impressionné par vos services et votre attention au détail dans l'élaboration de vos plans financiers. J'apprécie beaucoup vos services et votre attention au détail."
+    }
+]

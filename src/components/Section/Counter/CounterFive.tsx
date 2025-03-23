@@ -13,30 +13,30 @@ const CounterFive: React.FC<Props> = ({ classname }) => {
                         <div className="flex flex-col items-center">
                             <i className="icon-user-happy text-5xl"></i>
                             <div className="count-block flex items-center mt-5">
-                                <div className="counter heading3">2.3</div>
-                                <span className="heading3">k</span>
+                                <div className="counter heading3">40</div>
+                                <span className="heading3"> cl.</span>
                             </div>
-                            <div className="body1 text-secondary text-center">Business Setup Growth</div>
+                            <div className="body1 text-secondary text-center">Clients satisfaits</div>
                         </div>
                     </div>
                     <div className="item">
                         <div className="flex flex-col items-center">
                             <i className="icon-rocket text-5xl"></i>
                             <div className="count-block flex items-center mt-5">
-                                <div className="counter heading3">1.77</div>
-                                <span className="heading3">k</span>
+                                <div className="counter heading3">10</div>
+                                <span className="heading3"> pr.</span>
                             </div>
-                            <div className="body1 text-secondary text-center">Business Problem Solving</div>
+                            <div className="body1 text-secondary text-center">Situations difficiles gagnées</div>
                         </div>
                     </div>
                     <div className="item">
                         <div className="flex flex-col items-center">
                             <i className="icon-target text-5xl"></i>
                             <div className="count-block flex items-center mt-5">
-                                <div className="counter heading3">298</div>
-                                <span className="heading3">k</span>
+                                <div className="counter heading3">15</div>
+                                <span className="heading3">pr.</span>
                             </div>
-                            <div className="body1 text-secondary text-center">Goal achiever</div>
+                            <div className="body1 text-secondary text-center">Interventions internationales</div>
                         </div>
                     </div>
                     <div className="item">
@@ -44,9 +44,9 @@ const CounterFive: React.FC<Props> = ({ classname }) => {
                             <i className="icon-wallet text-5xl"></i>
                             <div className="count-block flex items-center mt-5">
                                 <div className="counter heading3">246</div>
-                                <span className="heading3">k</span>
+                                <span className="heading3">k €</span>
                             </div>
-                            <div className="body1 text-secondary text-center">Passive income earners</div>
+                            <div className="body1 text-secondary text-center">Chiffre d ffaire réalisé</div>
                         </div>
                     </div>
                 </div>

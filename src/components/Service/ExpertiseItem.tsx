@@ -28,33 +28,34 @@ const ExpertiseItem: React.FC<Props> = ({ data, style, number }) => {
 
     return (
         <>
-            {style === 'style-two' &&
-                <div className="service-item py-7 px-6 bg-white rounded-lg border border-line box-shadow-sm hover-box-shadow">
-                    <div className="service-item-main flex items-center gap-8 h-full">
-                        <div className="icon">
-                            {IconComponent && <IconComponent className="text-blue md:text-6xl text-5xl" />}
-                        </div>
-                        <div className="infor">
-                            <div className="heading7 hover:text-blue duration-300">{data.title}</div>
-                            <div className="text-secondary mt-2">{data.shortDesc}</div>
-                            <div className="read-more flex items-center gap-1 mt-2">
-                                <Link
-                                    href={"/service/service-detail/[slug]"}
-                                    as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
-                                    onClick={handleExploreClick}
-                                    className="flex items-center" // Added flex alignment
-                                >
-                                    <Icon.CaretRight weight="bold" className="text-blue text-sm duration-300" />
-                                    <div className="text-button-sm">Voir plus</div>
-                                </Link>
-                            </div>
+        {style === 'style-two' &&
+            <div className="service-item py-7 px-6 bg-white rounded-lg border border-line box-shadow-sm hover-box-shadow">
+                <div className="service-item-main flex items-center gap-8 h-full">
+                    <div className="icon">
+                        {IconComponent && <IconComponent className="text-blue md:text-6xl text-5xl" />}
+                    </div>
+                    <div className="infor">
+                        <div className="heading7 hover:text-blue duration-300">{data.title}</div>
+                        <br />
+                        <div className="text-secondary mt-2">{data.shortDesc}</div>
+                        <div className="read-more flex items-center gap-1 mt-2">
+                            <Link
+                                href={"/service/service-detail/[slug]"}
+                                as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
+                                onClick={handleExploreClick}
+                                className="flex items-center" // Added flex alignment
+                            >
+                                <Icon.CaretRight weight="bold" className="text-blue text-sm duration-300" />
+                                <div className="text-button-sm">Voir plus</div>
+                            </Link>
                         </div>
                     </div>
-                    {isPopupOpen && <ExpertisePopup data={data} onClose={handleClosePopup} />}
                 </div>
-            }
+                {isPopupOpen && <ExpertisePopup data={data} onClose={handleClosePopup} />}
+            </div>
+        }
 
-        </>
+    </>
     )
 }
 

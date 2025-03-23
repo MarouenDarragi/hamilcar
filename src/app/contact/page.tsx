@@ -4,6 +4,7 @@ import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 //import Footer from "@/components/Footer/Footer";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import PartnerSix from "@/components/Section/Partner/PartnerSix";
 
 export default function ContactStyleOne() {
   return (
@@ -17,18 +18,17 @@ export default function ContactStyleOne() {
           <BreadcrumbItem
             link="Contact us"
             img="/images/banner/about1.png"
-            title="Contact us"
-            desc="Explore our Contact Us page for prompt assistance from our dedicated team."
+            title="Contactez-nous"
+            desc="Explorez notre page Contactez-nous pour une assistance rapide de notre équipe dédiée."
           />
           <div className="form-contact style-one lg:py-[100px] sm:py-16 py-10">
             <div className="container flex items-center justify-center">
               <div className="xm:w-5/6 w-full flex max-xl:flex-col xl:items-center gap-y-8">
                 <div className="w-full xl:w-2/5">
                   <div className="infor bg-blue rounded-xl p-10">
-                    <div className="heading5 text-white">Get it touch</div>
+                    <div className="heading5 text-white">Vous voulez nous contacter!</div>
                     <div className="body3 text-white mt-2">
-                      We will get back to you within 24 hours, or call us
-                      everyday
+                    Nous vous répondrons dans les 24 heures ou appelez-nous tous les jours.
                     </div>
                     <div className="list-social flex flex-wrap items-center gap-3 md:mt-10 mt-6">
                       <a
@@ -77,7 +77,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"></div>
                         <div className="text-button normal-case text-white">
-                          8AM - 6PM, Mon - sun
+                          8AM - 6PM, Lundi - Vendredi
                         </div>
                       </div>
                       <div className="item flex items-center gap-3 mt-5">
@@ -101,7 +101,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"> </div>
                         <div className="text-button normal-case text-white">
-                          hi.avitex@gmail.com
+                          support@hamilcar.com
                         </div>
                       </div>
                       <div className="item flex items-center gap-3 mt-5">
@@ -113,7 +113,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"> </div>
                         <div className="text-button normal-case text-white">
-                          4140 Rd. Allentown, New Mexico 31134
+                          4140 Rd. Allentown, Québec 31134
                         </div>
                       </div>
                     </div>
@@ -122,10 +122,9 @@ export default function ContactStyleOne() {
                 <div className="w-full xl:w-3/5 xl:pl-20">
                   <form className="form-block flex flex-col justify-between gap-5">
                     <div className="heading">
-                      <div className="heading5">Request a quote</div>
+                      <div className="heading5">Demandez un devis</div>
                       <div className="body3 text-secondary mt-2">
-                        We will get back to you within 24 hours, or call us
-                        everyday
+                      Nous vous répondrons dans les 24 heures ou appelez-nous tous les jours.
                       </div>
                     </div>
                     <div className="grid sm:grid-cols-2 gap-5">
@@ -133,7 +132,7 @@ export default function ContactStyleOne() {
                         <input
                           className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
                           type="text"
-                          placeholder="Name"
+                          placeholder="Nom"
                           required
                         />
                       </div>
@@ -141,7 +140,7 @@ export default function ContactStyleOne() {
                         <input
                           className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
                           type="text"
-                          placeholder="Subject"
+                          placeholder="Sujet"
                           required
                         />
                       </div>
@@ -159,13 +158,13 @@ export default function ContactStyleOne() {
                           name="form"
                         >
                           <option value="Financial Planning">
-                            Financial Planning
+                            Audit maturité
                           </option>
                           <option value="Business Planning">
-                            Business Planning
+                            Plan d'entreprise
                           </option>
                           <option value="Development Planning">
-                            Development Planning
+                            Evaluation de la croissance
                           </option>
                         </select>
                         <i className="ph ph-caret-down"></i>
@@ -182,7 +181,7 @@ export default function ContactStyleOne() {
                     </div>
                     <div className="button-block">
                       <button className="button-main hover:border-blue bg-blue text-white text-button rounded-full">
-                        Submit request
+                        Soumettre la demande
                       </button>
                     </div>
                   </form>
@@ -196,8 +195,8 @@ export default function ContactStyleOne() {
             // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7212.823144874193!2d-99.1401739338783!3d19.435895215060164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9315ce03079%3A0x7b6d1555d27fc3fa!2sCentral%20De%20Mayoreo!5e0!3m2!1svi!2s!4v1710150086015!5m2!1svi!2s"
             loading="lazy"
           ></iframe>
-          <CtaOne />
         </main>
+        
         <footer id="footer">{/* <Footer /> */}</footer>
       </div>
     </>

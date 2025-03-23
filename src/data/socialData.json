@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "slug": "activites-quebec",
+        "category": "Général",        
+        "subTitle": "Charités locales",
+        "title": "Activités au Québec",
+        "desc": "Nous avons effectué des activités charitatives dans divers régions du Québec auprès de familles en difficultés.",
+        "shortDesc": "Nous avons effectué des activités charitatives dans divers régions du Québec auprès de familles en difficultés.",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 2,
+        "slug": "activites-canada",
+        "category": "Général",
+        "subTitle": "Collaborations régionales",
+        "title": "Collaborations au Canada",
+        "desc": "Nous avons collaboré avec des associations locales à l'échelle du Canada pour offrir des services de soutien au sein des écoles primaires et secondaires.",
+        "shortDesc": "Nous avons collaboré avec des associations locales à l'échelle du Canada pour offrir des services de soutien au sein des écoles primaires et secondaires.",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 3,
+        "slug": "activites-internationales",
+        "category": "Général",        
+        "subTitle": "Activités internationales",
+        "title": "Actions Internationales",
+        "desc": "Nous avons intervenus dans le cadre de programmes menés par des ONG, et ce,  auprès des entreprises internationals pour aider leurs dirigeants de transition en matière de succession et de gouvernance.",
+        "shortDesc": "Nous avons intervenus dans le cadre de programmes menés par des ONG, et ce,  auprès des entreprises internationals pour aider leurs dirigeants de transition en matière de succession et de gouvernance.",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 4,
+        "slug": "digital-finance-solutions",
+        "category": "Québec",        
+        "subTitle": "made financial Canada",
+        "title": "Digital Finance Solutions",
+        "desc": "......................",
+        "shortDesc": "............................................",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 5,
+        "slug": "consulting-firms-online",
+        "category": "Canada",        
+        "subTitle": "retirement Canada",
+        "title": "Consulting Firms Online",
+        "desc": "......................",
+        "shortDesc": "......................",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 6,
+        "slug": "web-based-investments",
+        "category": "Canada",        
+        "subTitle": "account management tools",
+        "title": "Web-Based Investments",
+        "desc": "......................",
+        "shortDesc": "......................",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 7,
+        "slug": "online-finance-portals",
+        "category": "Canada",        
+        "subTitle": "account management tools",
+        "title": "Online Finance Portals",
+        "desc": "......................",
+        "shortDesc": "......................",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 8,
+        "slug": "international-implementation-case",
+        "category": "International",        
+        "subTitle": "made financial Canada",
+        "title": "International Implementation Case",
+        "desc": "......................",
+        "shortDesc": "......................",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 9,
+        "slug": "international-currency-trading-finance",
+        "category": "International",        
+        "subTitle": "retirement Canada",
+        "title": "Internationalcurrency Trading Finance",
+        "desc": "......................",
+        "shortDesc": "......................",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 10,
+        "slug": "digital-currency-stories",
+        "category": "International",        
+        "subTitle": "Budget Canada",
+        "title": "Digital Currency Stories",
+        "desc": "......................",
+        "shortDesc": "......................",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 11,
+        "slug": "quebec-adoption-success",
+        "category": "Québec",        
+        "subTitle": "made financial Canada",
+        "title": "Québec Adoption Success",
+        "desc": "......................",
+        "shortDesc": "......................",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 12,
+        "slug": "strategic-canada-case",
+        "category": "Québec",        
+        "subTitle": "Budget Québec",
+        "title": "Strategic Canada Case",
+        "desc": "......................",
+        "shortDesc": "......................",        
+        "img": "/images/component/930x593.png"
+    },
+    {
+        "id": 13,
+        "slug": "strategic-execution-wins",
+        "category": "Québec",        
+        "subTitle": "Budget Québec",
+        "title": "Strategic Execution Wins",
+        "desc": "......................",
+        "shortDesc": "......................",        
+        "img": "/images/component/930x593.png"
+    }
+]

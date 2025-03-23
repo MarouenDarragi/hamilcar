@@ -10,7 +10,7 @@ import * as Icon from "@phosphor-icons/react";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const serviceSchema = z.object({
+const expertiseSchema = z.object({
     id: z.string().optional(),
     icon: z.string().min(2, { message: "Icon class must be at least 2 characters." }),
     category: z.string().min(3, { message: "Category must be at least 3 characters." }),
@@ -20,26 +20,26 @@ const serviceSchema = z.object({
 
 });
 
-type ServiceFormValues = z.infer<typeof serviceSchema>;
+type ExpertiseFormValues = z.infer<typeof expertiseSchema>;
 
 interface Props {
-    onSubmit: (data: ServiceFormValues) => Promise<void>;
+    onSubmit: (data: ExpertiseFormValues) => Promise<void>;
     onCancel: () => void;
     initialValues?: ExpertiseType;
     isEditing: boolean;
 }
 
-const AdminForm: React.FC<Props> = ({ onSubmit, onCancel, initialValues, isEditing }) => {
-    const { register, handleSubmit, formState: { errors }, reset } = useForm<ServiceFormValues>({
-        resolver: zodResolver(serviceSchema),
+const ExpertiseForm: React.FC<Props> = ({ onSubmit, onCancel, initialValues, isEditing }) => {
+    const { register, handleSubmit, formState: { errors }, reset } = useForm<ExpertiseFormValues>({
+        resolver: zodResolver(expertiseSchema),
         defaultValues: initialValues,
     });
 
-    const onSubmitHandler = async (data: ServiceFormValues) => {
+    const onSubmitHandler = async (data: ExpertiseFormValues) => {
         await onSubmit(data);
         toast.success('Expertise item added successfully!', {
             position: "top-right",
-            autoClose: 3000,
+            autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
@@ -58,7 +58,7 @@ const AdminForm: React.FC<Props> = ({ onSubmit, onCancel, initialValues, isEditi
 
     return (
         <>
-            <form onSubmit={handleSubmit(onSubmitHandler)} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <form onSubmit={handleSubmit(onSubmitHandler)} className="bg-white shadow-lg rounded px-8 pt-6 pb-8 mb-4">
                 {/* Icon */}
                 <div className="mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="icon">Icon (Phosphor Icon Name):</label>
@@ -134,7 +134,7 @@ const AdminForm: React.FC<Props> = ({ onSubmit, onCancel, initialValues, isEditi
                 {/* Buttons */}
                 <div className="flex items-center justify-center">
                     <button
-                        className="bg-blue hover:bg-dark-blue text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full"
+                       className="bg-blue hover:bg-white border-2 text-white hover:text-blue font-bold py-3 px-12 rounded focus:outline-none focus:shadow-outline"
                         type="submit"
                     >
                         {isEditing ? 'Update' : 'Add'}
@@ -146,4 +146,4 @@ const AdminForm: React.FC<Props> = ({ onSubmit, onCancel, initialValues, isEditi
     );
 };
 
-export default AdminForm;
+export default ExpertiseForm;

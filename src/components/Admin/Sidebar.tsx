@@ -8,7 +8,8 @@ import {
   Handshake,
   Heart,
   ChatCircleDots,
-  AirplaneTilt
+  AirplaneTilt,
+  Info
 } from "@phosphor-icons/react";
 import Link from 'next/link';
 import Image from 'next/image'; // Import the Image component
@@ -16,6 +17,7 @@ import Image from 'next/image'; // Import the Image component
 const Sidebar = () => {
   const menuItems = [
     { name: 'Outils', icon: <Gauge size={24} />, link: '/admin/tools' },
+    { name: 'Infos', icon: <Info size={24} />, link: '/admin/info' },
     { name: 'Expertise', icon: <Wrench size={24} />, link: '/admin/expertises' },
     { name: 'Service', icon: <PresentationChart size={24} />, link: '/admin/services' },
     { name: 'Action Sociale', icon: <Heart size={24} />, link: '/admin/social' },

@@ -62,7 +62,7 @@ interface Props {
     onDelete: (id: string) => void;
 }
 
-const AdminList: React.FC<Props> = ({ data, onEdit, onDelete }) => {
+const ExpertiseCard: React.FC<Props> = ({ data, onEdit, onDelete }) => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {data.map((item, index) => (
@@ -95,4 +95,4 @@ const AdminList: React.FC<Props> = ({ data, onEdit, onDelete }) => {
     );
 };
 
-export default AdminList;
+export default ExpertiseCard;

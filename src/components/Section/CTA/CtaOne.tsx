@@ -8,8 +8,8 @@ const CtaOne = () => {
                 <Image width={5000} height={5000} className="w-full h-full object-cover" src="/images/cta/bg-cta1.png" alt="" />
             </div>
             <div className="container flex items-center justify-between max-lg:flex-col max-lg:justify-center gap-6 h-full">
-                <div className="heading5 max-lg:text-center text-white">Looking for a first-class business consultant?</div>
-                <Link className="button-main rounded-full hover:bg-black hover:text-white bg-white text-button px-9 py-3" href="/contact/contact-two">Get A Quote</Link>
+                <div className="heading5 max-lg:text-center text-white">Vous recherchez un consultant d'affaires de premier ordre?</div>
+                <Link className="button-main rounded-full hover:bg-black hover:text-white bg-white text-button px-9 py-3" href="/contact/contact-two">Obtenir un devis</Link>
             </div>
         </div>
     )

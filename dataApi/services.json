@@ -1,10 +1,257 @@
 [
   {
-    "icon": "icon-coin-chair",
-    "category": "servise1",
-    "title": "sss1",
-    "desc": "ssssssssssssssssssss",
-    "shortDesc": "ssssssssssssssssssssssss",
-    "id": "b1ef2914-f729-4ae3-980e-abcbbceeb109"
+    "id": "8d26873d-66da-44cgf6-ae67-4f951554a8e8",
+    "icon": "Binary",
+    "category": "Transformation Numérique",
+    "title": "Transformation Numérique",
+    "desc": "Notre équipe d'experts vous guide tout au long de votre processus de transformation numérique, en partant de la définition de la stratégie jusqu’à sa mise en œuvre. Nous offrons des solutions qui vous permettent d'innover, de repenser votre modèle économique et d’améliorer vos performances.",
+    "shortDesc": "Nous accompagnons les organisations tout au long de leur parcours de transformation numérique, de la stratégie à la mise en œuvre.",
+    "serviceItems": [
+      {
+        "itemTitle": "Élaboration de Stratégies de Transformation :",
+        "itemDesc": "Nous vous aidons à définir une vision claire et des objectifs stratégiques pour réussir votre transition numérique."
+      },
+      {
+        "itemTitle": "Conception de Modèles d'Affaires Innovants :",
+        "itemDesc": "Nous collaborons avec vous pour concevoir de nouveaux modèles d'affaires et développer des produits et services numériques adaptés à votre marché."
+      },
+      {
+        "itemTitle": "Études d’Opportunités et Analyses d'Affaires :",
+        "itemDesc": "Nous menons des études approfondies pour identifier les meilleures opportunités et solutions pour votre entreprise."
+      },
+      {
+        "itemTitle": "Intégration Technologique :",
+        "itemDesc": "Nous intégrons des technologies modernes et sur mesure, adaptées à vos besoins pour maximiser l’efficacité et la performance de vos opérations."
+      },
+      {
+        "itemTitle": "Évaluation de la Maturité Numérique :",
+        "itemDesc": "Nous évaluons et renforçons la maturité numérique de votre organisation pour garantir une transformation réussie."
+      }
+    ],
+    "serviceQuestions": [
+      {
+        "qsSubject": "question 1_1",
+        "qsResponse": "responce 1_1"
+      },
+      {
+        "qsSubject": "question 1_2",
+        "qsResponse": "responce 1_2"
+      }
+    ],
+    "image": "/uploads/services/31da860d-7711-4979-bb1b-b94467a1a22b.png"
+  },
+  {
+    "id": "1a2fdb3c4d-5e6f-7g8h-9i0j-1k3l3m7n5o6p",
+    "icon": "BuildingApartment",
+    "category": "Gouvernance du Numerique",
+    "title": "Gouvernance du Numerique",
+    "desc": "Pour réussir une transformation numérique, une gouvernance solide est indispensable. Nous vous assistons dans la mise en place d’une gouvernance numérique efficace.",
+    "shortDesc": "La gouvernance du numérique est essentielle pour une transformation réussie. Nous vous aidons à établir une gouvernance efficace",
+    "serviceItems": [
+      {
+        "itemTitle": "Établissement d'un Modèle de Gouvernance :",
+        "itemDesc": "Nous définissons les rôles, responsabilités, autorités décisionnelles, orientations, principes, politiques et normes pour gérer toutes les questions numériques."
+      },
+      {
+        "itemTitle": "Mise en Place de Politiques et Normes Numériques",
+        "itemDesc": "Nous aidons à l'élaboration des politiques, normes et orientations numériques adaptées aux besoins de votre organisation."
+      },
+      {
+        "itemTitle": "Définition des Objectifs de Performance",
+        "itemDesc": "Nous établissons des objectifs, et nous mettons en place des indicateurs de performance numérique pour mesurer et optimiser les résultats de vos initiatives numériques."
+      },
+      {
+        "itemTitle": "Gestion du Portefeuille Numérique",
+        "itemDesc": "Nous vous aidons à gérer et à gouverner efficacement votre portefeuille de projets numériques."
+      }
+    ],
+    "serviceQuestions": [
+      {
+        "qsSubject": "question 2_1",
+        "qsResponse": "responce 2_1"
+      },
+      {
+        "qsSubject": "question 2_2",
+        "qsResponse": "responce 2_2"
+      }
+    ],
+    "image": "/uploads/services/31da860d-7711-4979-bb1b-b94467a1a22b.png"
+  },
+  {
+    "id": "2b3c4d5e-6f7g-8hf9i-0j1k-2l3dm4n5o6p7q",
+    "icon": "CastleTurret",
+    "category": "Conseil Strategique",
+    "title": "Conseil Strategique",
+    "desc": "Nos services de conseil sont conçus pour vous apporter des solutions sur mesure, qu’il s’agisse de mandats transversaux ou de conseils ponctuels.",
+    "shortDesc": "Nos services de conseil stratégique sont conçus pour répondre à vos besoins spécifiques, que ce soit pour des mandats transversaux ou des analyses ponctuelles. Nous offrons :",
+    "serviceItems": [
+      {
+        "itemTitle": "Gouvernance :",
+        "itemDesc": "Élaboration de modèles, évaluations et stratégies de gouvernance."
+      },
+      {
+        "itemTitle": "Transformation numérique :",
+        "itemDesc": "Définition de stratégies et plans de transformation numérique."
+      },
+      {
+        "itemTitle": "Planification stratégique :",
+        "itemDesc": "Élaboration de plans stratégiques pour atteindre vos objectifs à long terme."
+      },
+      {
+        "itemTitle": "Maturité organisationnelle :",
+        "itemDesc": "Évaluation et amélioration de la maturité de votre organisation."
+      },
+      {
+        "itemTitle": "Gestion des données :",
+        "itemDesc": "Création de stratégies efficaces pour gérer vos données de manière optimale."
+      }
+    ],
+    "serviceQuestions": [
+      {
+        "qsSubject": "question 3_1",
+        "qsResponse": "responce 3_1"
+      },
+      {
+        "qsSubject": "question 3_2",
+        "qsResponse": "responce 3_2"
+      }
+    ],
+    "image": "/uploads/services/31da860d-7711-4979-bb1b-b94467a1a22b.png"
+  },
+  {
+    "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+    "icon": "Ruler",
+    "category": "Developpement de solutions sur mesure",
+    "title": "Developpement de solutions sur mesure",
+    "desc": "Nous concevons et développons des solutions innovantes parfaitement adaptées à vos besoins.",
+    "shortDesc": "Nous concevons et développons des solutions sur mesure pour répondre aux besoins spécifiques de nos clients.",
+    "serviceItems": [
+      {
+        "itemTitle": "Conception de solutions :",
+        "itemDesc": "Création de solutions sur mesure et innovantes pour répondre à vos défis spécifiques."
+      },
+      {
+        "itemTitle": "Développement de logiciels :",
+        "itemDesc": "Conception et développement de logiciels personnalisés pour optimiser vos opérations."
+      },
+      {
+        "itemTitle": "Intégration de systèmes :",
+        "itemDesc": "Mise en œuvre de solutions d’intégration de systèmes existants pour une meilleure efficacité et interopérabilité."
+      },
+      {
+        "itemTitle": "Maintenance et support :",
+        "itemDesc": "Assurer la continuité et la performance de vos solutions grâce à un support dédié et une maintenance proactive."
+      }
+    ],
+    "serviceQuestions": [
+      {
+        "qsSubject": "question 4_1",
+        "qsResponse": "responce 4_1"
+      },
+      {
+        "qsSubject": "question 4_2",
+        "qsResponse": "responce 4_2"
+      }
+    ],
+    "image": "/uploads/services/31da860d-7711-4979-bb1b-b94467a1a22b.png"
+  },
+  {
+    "id": "4d5e6f7g-8h9i-0jz1k-2l3m-4ne5o6p7q8r9s",
+    "icon": "TreeStructure",
+    "category": "Gouvernance des donnees",
+    "title": "Gouvernance des donnees",
+    "desc": "Nous vous accompagnons dans la gestion et la protection de vos données pour garantir leur sécurité, leur confidentialité et leur conformité.",
+    "shortDesc": "Nous aidons les organisations à gérer et à protéger leurs données en :",
+    "serviceItems": [
+      {
+        "itemTitle": "Établissement de Politiques et Pratiques de Gestion des Données :",
+        "itemDesc": "Mise en place de pratiques solides pour garantir l’intégrité, la confidentialité et la disponibilité de vos informations."
+      },
+      {
+        "itemTitle": "Élaboration de Stratégies de données :",
+        "itemDesc": "Maximiser la valeur et l’utilisation de vos données pour faciliter des décisions éclairées et stratégiques."
+      }
+    ],
+    "serviceQuestions": [
+      {
+        "qsSubject": "question 5_1",
+        "qsResponse": "responce 5_1"
+      },
+      {
+        "qsSubject": "question 5_2",
+        "qsResponse": "responce 5_2"
+      }
+    ],
+    "image": "/uploads/services/31da860d-7711-4979-bb1b-b94467a1a22b.png"
+  },
+  {
+    "id": "5e6f7g8h-9i0j-1kd2l-3m4ns-5o6p7q8r9s0t",
+    "icon": "HeadCircuit",
+    "category": "Intelligence artificielle",
+    "title": "Intelligence artificielle",
+    "desc": "Nous intégrons des solutions d’IA avancées pour automatiser, analyser et améliorer vos processus opérationnels.",
+    "shortDesc": "Nous intégrons des solutions d’intelligence artificielle pour améliorer les processus opérationnels et offrir des insights précieux. Nos services incluent :",
+    "serviceItems": [
+      {
+        "itemTitle": "Développement de Modèles d’IA :",
+        "itemDesc": "Création de modèles d'intelligence artificielle IA pour automatiser vos processus et optimiser leur performance."
+      },
+      {
+        "itemTitle": "Analyse de données :",
+        "itemDesc": "Utilisation de l'IA pour analyser vos données et en tirer des insights exploitables."
+      },
+      {
+        "itemTitle": "Intégration d’IA :",
+        "itemDesc": "Intégration de solutions d’IA dans vos systèmes existants pour améliorer l'efficacité."
+      },
+      {
+        "itemTitle": "Développement d’Agents conversationnels :",
+        "itemDesc": "Conception et déploiement d'agents conversationnels pour automatiser l’interaction client, les services et améliorer l'expérience utilisateur."
+      }
+    ],
+    "serviceQuestions": [
+      {
+        "qsSubject": "question 6_1",
+        "qsResponse": "responce 6_1"
+      },
+      {
+        "qsSubject": "question 6_2",
+        "qsResponse": "responce 6_2"
+      }
+    ],
+    "image": "/uploads/services/31da860d-7711-4979-bb1b-b94467a1a22b.png"
+  },
+  {
+    "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+    "icon": "ShieldCheck",
+    "category": "Cybersecurite",
+    "title": "Cybersecurite",
+    "desc": "Nous vous fournissons des services de cybersécurité pour protéger vos systèmes et données contre les menaces potentielles.",
+    "shortDesc": "Nous fournissons des services de cybersécurité pour protéger vos systèmes et données contre les menaces. Nos services incluent :",
+    "serviceItems": [
+      {
+        "itemTitle": "Évaluation de la sécurité :",
+        "itemDesc": "Analyse des vulnérabilités et identification et évaluation des risques liés à la cybersécurité."
+      },
+      {
+        "itemTitle": "Mise en Place de Mesures de sécurité :",
+        "itemDesc": "Développement et mise en œuvre de stratégies de sécurité robustes pour protéger vos informations sensibles."
+      },
+      {
+        "itemTitle": "Surveillance et réponse aux incidents :",
+        "itemDesc": "Surveillance continue et réponse rapide en cas d’incident de sécurité pour minimiser l'impact sur votre organisation."
+      }
+    ],
+    "serviceQuestions": [
+      {
+        "qsSubject": "question 7_1",
+        "qsResponse": "responce 7_1"
+      },
+      {
+        "qsSubject": "question 7_2",
+        "qsResponse": "responce 7_2"
+      }
+    ],
+    "image": "/uploads/services/31da860d-7711-4979-bb1b-b94467a1a22b.png"
   }
 ]

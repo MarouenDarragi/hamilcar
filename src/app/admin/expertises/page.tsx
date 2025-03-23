@@ -1,11 +1,16 @@
+
+
 'use client';
 
 import React, { useState, useEffect } from 'react';
 import { ExpertiseType } from '@/type/ExpertiseType';
-import AdminForm from '@/components/Admin/AdminForm';
-import AdminList from '@/components/Admin/AdminList';
+import ExpertiseForm from '@/components/Admin/ExpertiseForm';
+import ExpertiseCard from '@/components/Admin/ExpertiseCard';
 import Sidebar from "@/components/Admin/Sidebar";
 import { List, X } from "@phosphor-icons/react";
+import { toast, ToastContainer } from 'react-toastify';
+import ConfirmationDialog from '@/components/Admin/ConfirmationDialog';
+import 'react-toastify/dist/ReactToastify.css';
 
 const DATA_URL = '/api/admin/expertises';
 const PAGE_TITLE = 'Expertises';
@@ -23,16 +28,23 @@ export default function AdminExpertisesPage() {
   const [data, setData] = useState<ExpertiseType[]>([]);
   const [isEditing, setIsEditing] = useState(false);
   const [selectedItem, setSelectedItem] = useState<ExpertiseType | null>(null);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false); // State for mobile sidebar
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [deleteItemId, setDeleteItemId] = useState<string | null>(null);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   useEffect(() => {
     fetchData();
   }, []);
 
   const fetchData = async () => {
-    const response = await fetch(DATA_URL);
-    const result = await response.json();
-    setData(result);
+    try {
+      const response = await fetch(DATA_URL);
+      const result = await response.json();
+      setData(result);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      toast.error('Failed to load data');
+    }
   };
 
   const handleCreate = async (item: ExpertiseType) => {
@@ -44,13 +56,13 @@ export default function AdminExpertisesPage() {
       });
 
       if (response.ok) {
-        fetchData(); // Refresh data after successful creation
+        await fetchData();
         handleCancelEdit();
-      } else {
-        console.error('Failed to create item');
+        toast.success('Expertise created successfully!');
       }
     } catch (error) {
       console.error('Error creating item:', error);
+      toast.error('Failed to create expertise');
     }
   };
 
@@ -63,29 +75,40 @@ export default function AdminExpertisesPage() {
       });
 
       if (response.ok) {
-        fetchData(); // Refresh data after successful update
+        await fetchData();
         handleCancelEdit();
-      } else {
-        console.error('Failed to update item');
+        toast.success('Expertise updated successfully!');
       }
     } catch (error) {
       console.error('Error updating item:', error);
+      toast.error('Failed to update expertise');
     }
   };
 
   const handleDelete = async (id: string) => {
-    if (confirm('Are you sure you want to delete this item?')) {
-      try {
-        const response = await fetch(`${DATA_URL}?id=${id}`, { method: 'DELETE' });
-        if (response.ok) {
-          fetchData(); // Refresh data after successful deletion
-        } else {
-          console.error('Failed to delete item');
-        }
-      } catch (error) {
-        console.error('Error deleting item:', error);
+    try {
+      const response = await fetch(`${DATA_URL}?id=${id}`, { method: 'DELETE' });
+      if (response.ok) {
+        await fetchData();
+        toast.success('Expertise deleted successfully!');
       }
+    } catch (error) {
+      console.error('Error deleting item:', error);
+      toast.error('Failed to delete expertise');
+    } finally {
+      setIsDialogOpen(false);
+      setDeleteItemId(null);
     }
+  };
+
+  const openDeleteDialog = (id: string) => {
+    setDeleteItemId(id);
+    setIsDialogOpen(true);
+  };
+
+  const closeDeleteDialog = () => {
+    setIsDialogOpen(false);
+    setDeleteItemId(null);
   };
 
   const handleEdit = (item: ExpertiseType) => {
@@ -106,6 +129,8 @@ export default function AdminExpertisesPage() {
     }
   };
 
+  
+
   return (
     <div className="flex flex-col md:flex-row h-screen bg-gray-100">
       <MobileMenuButton isOpen={isSidebarOpen} onClick={() => setIsSidebarOpen(!isSidebarOpen)} />
@@ -122,14 +147,28 @@ export default function AdminExpertisesPage() {
         <div className="container mx-auto p-4">
           <h1 className="text-2xl font-bold mb-4">{PAGE_TITLE}</h1>
 
-          <AdminForm
+          <ExpertiseForm
             onSubmit={handleSubmit}
             onCancel={handleCancelEdit}
             initialValues={selectedItem || undefined}
             isEditing={isEditing}
           />
 
-          <AdminList data={data} onEdit={handleEdit} onDelete={handleDelete} />
+          <ExpertiseCard 
+            data={data} 
+            onEdit={handleEdit} 
+            onDelete={openDeleteDialog} // Modification ici
+          />
+
+          <ConfirmationDialog
+            isOpen={isDialogOpen}
+            onClose={closeDeleteDialog}
+            onConfirm={() => deleteItemId && handleDelete(deleteItemId)}
+            title="Delete Expertise"
+            message="Are you sure you want to delete this expertise?"
+          />
+
+          <ToastContainer />
         </div>
       </main>
     </div>

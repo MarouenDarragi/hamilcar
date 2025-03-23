@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "category": "services",
+        "title": "Quel type d'appareil puis-je utiliser pour accéder à vos services ?",
+        "desc": "Nos services sont accessibles via n’importe quel appareil disposant d’une connexion Internet, que ce soit un ordinateur, une tablette ou un smartphone."
+    },
+    {
+        "id": 2,
+        "category": "services",
+        "title": "Quels produits et services proposez-vous ?",
+        "desc": "Nous offrons des services dans divers domaines, notamment la transformation numérique, la gouvernance du numérique, l’intelligence artificielle, la cybersécurité, et le développement de solutions sur mesure. Chaque service est conçu pour répondre spécifiquement à vos besoins d’affaires."
+    },
+    {
+        "id": 3,
+        "category": "services",
+        "title": "Comment puis-je contacter votre service client ?",
+        "desc": "Notre équipe de support est à votre disposition. Vous pouvez nous contacter par e-mail à [insérer l'email] ou par téléphone au [insérer numéro] pendant nos heures d’ouverture. Nous nous engageons à répondre à toutes vos questions et à résoudre vos préoccupations rapidement."
+    },
+    {
+        "id": 4,
+        "category": "services",
+        "title": "Puis-je retourner des services ou demander des modifications si je ne suis pas satisfait ?",
+        "desc": "Oui, nous nous engageons à vous fournir des solutions de qualité. Si vous n'êtes pas satisfait de l'une de nos prestations, nous travaillerons avec vous pour réajuster ou adapter nos services à vos besoins. Veuillez consulter notre politique de révision et de satisfaction client pour plus de détails."
+    },
+    {
+        "id": 5,
+        "category": "services",
+        "title": "Est-ce que vos services sont adaptés aux petites entreprises ?",
+        "desc": "Oui, nos services sont conçus pour répondre aux besoins de toutes les tailles d'entreprises. Que vous soyez une petite start-up ou une grande organisation, nous proposons des solutions flexibles et adaptées pour soutenir votre croissance et optimiser vos processus."
+    },
+    {
+        "id": 6,
+        "category": "services",
+        "title": "Combien de temps faut-il pour voir les résultats de vos services ?",
+        "desc": "Le délai pour voir des résultats dépend des services choisis et des spécificités de votre entreprise. Cependant, nous nous efforçons de vous fournir des améliorations visibles et mesurables dans des délais réalistes. Nous vous accompagnerons tout au long du processus pour assurer une transformation réussie."
+    },
+    {
+        "id": 7,
+        "category": "services",
+        "title": "Proposez-vous des services de formation pour aider mon équipe à utiliser les solutions mises en place ?",
+        "desc": "Oui, nous offrons des sessions de formation adaptées pour garantir que votre équipe maîtrise pleinement les solutions et technologies que nous mettons en place. Nos formations sont conçues pour maximiser l'adoption des outils et assurer une transition fluide."
+    },
+    {
+        "id": 8,
+        "category": "services",
+        "title": "Quels sont les coûts associés à vos services ?",
+        "desc": "Les coûts varient en fonction des services demandés et de la complexité du projet. Nous offrons une estimation personnalisée après avoir évalué vos besoins spécifiques. Contactez-nous pour discuter de votre projet et obtenir un devis sur mesure."
+    }
+]

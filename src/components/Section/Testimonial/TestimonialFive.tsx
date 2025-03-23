@@ -16,7 +16,7 @@ const TestimonialFive = ({ data }: Props) => {
         <>
             <div className="testimonial-block style-three our-project-block lg:pt-[100px] sm:pt-16 pt-10">
                 <div className="container">
-                    <div className="heading3 text-center">What People Are Saying</div>
+                    <div className="heading3 text-center">Ce qu'ils disent de nous</div>
                     <div className="list-testimonial list-project lg:mt-10 mt-7">
                         <Swiper
                             spaceBetween={16}

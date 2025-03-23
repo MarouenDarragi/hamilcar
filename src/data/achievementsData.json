@@ -1,0 +1,310 @@
+[
+    {
+        "id": 1,
+        "slug": "plateforme-marketing",
+        "category": "Software Developpement",
+        "title": "Plateforme marketing",
+        "client": "Company CLIENT_1",
+        "img": "/images/component/472x354.png",
+        "desc": "Notre objectif pour ce projet était de développer une plateforme complète de gestion financière offrant aux utilisateurs un tableau de bord centralisé pour gérer leurs finances. Nous souhaitions créer une plateforme conviviale, facile à utiliser et offrant de nombreuses fonctionnalités pour aider les utilisateurs à suivre leurs dépenses, à surveiller leurs investissements et à planifier leur avenir financier. Notre objectif était de fournir aux utilisateurs les outils et les ressources nécessaires pour prendre des décisions financières éclairées et atteindre leurs objectifs financiers.",
+        "clientInformations":{
+                "nameOfDirector": "Jack Smith",
+                "location": "Ottawa, Canada",
+                "sector": "Secteur des Assurances",
+                "employees": "500",
+                "revenue": "$1M",
+                "industry": "Secteur des Assurances"
+        },
+        "projectInformations":{
+                "startDate": "2023-01-01",
+                "endDate": "2023-12-31",
+                "duration": "12 mois",
+                "status": "En cours",
+                "manager": "Jean Dupont",
+                "location": "Ottawa, Canada"
+        },
+        "metrics": [
+            {
+                "metric": "Croissance de la création d'entreprise",
+                "value": "80"
+            },
+            {
+                "metric": "Résolution de problèmes commerciaux",
+                "value": "90"
+            },
+            {
+                "metric": "Productivity",
+                "value": "95"
+            }
+
+        ],
+        "paragraph1": {
+            "pTitle": "Ce que nous avons fait",
+            "pDesc": "Nous avons commencé par mener une étude de marché approfondie afin d'identifier les principaux points faibles des plateformes e-commerce existantes. À partir de ces conclusions, nous avons développé une solution sur mesure tirant parti des dernières tendances technologiques et de design. Tout au long du processus de développement, nous avons travaillé en étroite collaboration avec nos clients afin de répondre à leurs besoins spécifiques.",
+            "pKeyPoints": [
+                "Plateforme de gestion financière complète",
+                "Plateforme conviviale et facile à utiliser",
+                "Fonctionnalités avancées pour aider les utilisateurs"
+            ],
+            "pImg": "/images/component/930x593.png"
+        }, 
+        "paragraph2": {
+            "pTitle": "Ce que nous avons accompli",
+            "pDesc": "Nous avons offert une plateforme de gestion financière complète et facile à utiliser, offrant aux utilisateurs un tableau de bord centralisé pour gérer leurs finances. Nous avons mis en place des fonctionnalités avancées pour aider les utilisateurs à surveiller leurs investissements et à planifier leur avenir financier.",
+            "pKeyPoints": [
+                "Plateforme de gestion financière complète",
+                "Plateforme conviviale et facile à utiliser",
+                "Fonctionnalités avancées pour aider les utilisateurs"
+            ],
+            "pImg": "/images/component/930x593.png"
+        },
+        "testimonials": [
+            {
+                "name": "John Doe",
+                "role": "CEO",
+                "img": "/images/component/60x60.png",
+                "desc": "Travailler avec cette agence a été une véritable révolution pour notre entreprise. Leur équipe est compétente, réactive et toujours prête à se surpasser!"
+            },
+            {
+                "name": "Jane Hopkins",
+                "role": "Ancien directeur financier",
+                "img": "/images/component/60x60.png",
+                "desc": "Le projet a vraiment changé mon monde. Je suis impressionnées par la qualidade de la plateforme et la facilité d'utilisation. Je recommande vivement ce projet!"
+            },
+            {
+                "name": "Mark Louis",
+                "role": "CFO",
+                "img": "/images/component/60x60.png",
+                "desc": "Nous avons eu le plaisir de faire le choix de ce projet. La plateforme est facile à utiliser et offre des fonctionnalités avancées. Nous recommandons vivement ce projet!"
+            }
+        ]       
+    },
+    {
+        "id": 2,
+        "slug": "audit-maturite-digitale",
+        "category": "Audit maturité",
+        "title": "Audit maturité numérique",
+        "client": "Company CLIENT_2",
+        "img": "/images/component/472x354.png",
+        "desc": "",
+        "clientInformations":{
+                "nameOfDirector": "",
+                "location": "",
+                "sector": "",
+                "employees": "",
+                "revenue": "",
+                "industry": ""
+        },
+        "projectInformations":{
+                "startDate": "",
+                "endDate": "",
+                "duration": "",
+                "status": "",
+                "manager": "",
+                "location": ""
+        },
+        "metrics": [
+            {
+                "metric": "",
+                "value": ""
+            }
+        ],
+        "paragraph1": {
+            "pTitle": "",
+            "pDesc": "",
+            "pKeyPoints": [],
+            "pImg": "/images/component/930x593.png"
+        }, 
+        "paragraph2": {
+            "pTitle": "",
+            "pDesc": "",
+            "pKeyPoints": [],
+            "pImg": "/images/component/930x593.png"
+        },
+        "testimonials": [
+            {
+                "name": "",
+                "role": "",
+                "img": "/images/component/60x60.png",
+                "desc": ""
+            },
+            {
+                "name": "",
+                "role": "",
+                "img": "/images/component/60x60.png",
+                "desc": ""
+            }
+        ]       
+    },
+    {
+        "id": 3,
+        "slug": "audit-maturite-digitale",
+        "category": "Audit maturité",
+        "title": "Etat Gouvernance Numérique",
+        "client": "Company CLIENT_3",
+        "img": "/images/component/472x354.png",
+        "desc": "",
+        "clientInformations":{
+                "nameOfDirector": "",
+                "location": "",
+                "sector": "",
+                "employees": "",
+                "revenue": "",
+                "industry": ""
+        },
+        "projectInformations":{
+                "startDate": "",
+                "endDate": "",
+                "duration": "",
+                "status": "",
+                "manager": "",
+                "location": ""
+        },
+        "metrics": [
+            {
+                "metric": "",
+                "value": ""
+            }
+        ],
+        "paragraph1": {
+            "pTitle": "",
+            "pDesc": "",
+            "pKeyPoints": [],
+            "pImg": "/images/component/930x593.png"
+        }, 
+        "paragraph2": {
+            "pTitle": "",
+            "pDesc": "",
+            "pKeyPoints": [],
+            "pImg": "/images/component/930x593.png"
+        },
+        "testimonials": [
+            {
+                "name": "",
+                "role": "",
+                "img": "/images/component/60x60.png",
+                "desc": ""
+            },
+            {
+                "name": "",
+                "role": "",
+                "img": "/images/component/60x60.png",
+                "desc": ""
+            }
+        ]       
+    },
+    {
+        "id": 4,
+        "slug": "audit-securite-digitale",
+        "category": "Audit sécurité",
+        "title": "Audit sécurité de données",
+        "client": "Company CLIENT_4",
+        "img": "/images/component/472x354.png",
+        "desc": "",
+        "clientInformations":{
+                "nameOfDirector": "",
+                "location": "",
+                "sector": "",
+                "employees": "",
+                "revenue": "",
+                "industry": ""
+        },
+        "projectInformations":{
+                "startDate": "",
+                "endDate": "",
+                "duration": "",
+                "status": "",
+                "manager": "",
+                "location": ""
+        },
+        "metrics": [
+            {
+                "metric": "",
+                "value": ""
+            }
+        ],
+        "paragraph1": {
+            "pTitle": "",
+            "pDesc": "",
+            "pKeyPoints": [],
+            "pImg": "/images/component/930x593.png"
+        }, 
+        "paragraph2": {
+            "pTitle": "",
+            "pDesc": "",
+            "pKeyPoints": [],
+            "pImg": "/images/component/930x593.png"
+        },
+        "testimonials": [
+            {
+                "name": "",
+                "role": "",
+                "img": "/images/component/60x60.png",
+                "desc": ""
+            },
+            {
+                "name": "",
+                "role": "",
+                "img": "/images/component/60x60.png",
+                "desc": ""
+            }
+        ]       
+    },
+    {
+        "id": 5,
+        "category": "AI",
+        "slug": "agent-commercial-intelligent",
+        "title": "Agent commercial intelligent",
+        "client": "Company CLIENT_5",
+        "img": "/images/component/472x354.png",
+        "desc": "",
+        "clientInformations":{
+                "nameOfDirector": "",
+                "location": "",
+                "sector": "",
+                "employees": "",
+                "revenue": "",
+                "industry": ""
+        },
+        "projectInformations":{
+                "startDate": "",
+                "endDate": "",
+                "duration": "",
+                "status": "",
+                "manager": "",
+                "location": ""
+        },
+        "metrics": [
+            {
+                "metric": "",
+                "value": ""
+            }
+        ],
+        "paragraph1": {
+            "pTitle": "",
+            "pDesc": "",
+            "pKeyPoints": [],
+            "pImg": "/images/component/930x593.png"
+        }, 
+        "paragraph2": {
+            "pTitle": "",
+            "pDesc": "",
+            "pKeyPoints": [],
+            "pImg": "/images/component/930x593.png"
+        },
+        "testimonials": [
+            {
+                "name": "",
+                "role": "",
+                "img": "/images/component/60x60.png",
+                "desc": ""
+            },
+            {
+                "name": "",
+                "role": "",
+                "img": "/images/component/60x60.png",
+                "desc": ""
+            }
+        ]       
+    }
+]

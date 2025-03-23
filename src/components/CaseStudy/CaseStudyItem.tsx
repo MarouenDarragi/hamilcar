@@ -1,4 +1,6 @@
-import React from "react"
+'use client'
+
+import React, { use, useEffect } from "react"
 import Link from "next/link"
 import { CaseStudyType } from "@/type/CaseStudyType"
 import * as Icon from "@phosphor-icons/react/dist/ssr";
@@ -10,14 +12,15 @@ interface Props {
 }
 
 const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
+
     return (
         <>
             {style === 'style-one' &&
                 <div className="case-study-item item-filter">
                     <Link
                         className="item-main"
-                        href={"/case-studies/detail/[slug]"}
-                        as={"/case-studies/detail/" + data.title.toLowerCase().replace(/ /g, '-')}
+                        href={"/social/[slug]"}
+                        as={"/social/" + data.title.toLowerCase().replace(/ /g, '-')}
                     >
                         <div className="bg-img rounded-xl overflow-hidden">
                             <Image width={5000} height={5000} className="w-full h-full rounded-xl block duration-700" src={data.img} alt="" />
@@ -38,8 +41,8 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                             <Image width={5000} height={5000} className="w-full h-full rounded-xl display-block" src={data.img} alt="" />
                             <Link
                                 className="flex flex-col items-center py-8 px-5 bg-white rounded-full text-center"
-                                href={"/case-studies/detail/[slug]"}
-                                as={"/case-studies/detail/" + data.title.toLowerCase().replace(/ /g, '-')}
+                                href={"/social/[slug]"}
+                                as={"/social/" + data.title.toLowerCase().replace(/ /g, '-')}
                             >
                                 <div className="text-button-sm text-blue">Discovery</div>
                                 <Icon.ArrowRight className="text-blue" />
@@ -59,8 +62,8 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                             <Image width={5000} height={5000} className="w-full h-full block" src={data.img} alt={data.title} />
                             <Link
                                 className="flex flex-col items-center py-8 px-5 bg-white rounded-full text-center"
-                                href={"/case-studies/detail/[slug]"}
-                                as={"/case-studies/detail/" + data.title.toLowerCase().replace(/ /g, '-')}
+                                href={"/social/[slug]"}
+                                as={"/social/" + data.title.toLowerCase().replace(/ /g, '-')}
                             >
                                 <div className="text-button-sm text-gradient">Discovery</div>
                                 <Icon.ArrowUpRight weight="bold" className="text-gradient text-xl" />
@@ -68,8 +71,8 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                         </div>
                         <Link
                             className="infor bg-white rounded-lg pt-6 block"
-                            href={"/case-studies/detail/[slug]"}
-                            as={"/case-studies/detail/" + data.title.toLowerCase().replace(/ /g, '-')}
+                            href={"/social/[slug]"}
+                            as={"/social/" + data.title.toLowerCase().replace(/ /g, '-')}
                         >
                             <div className="heading6">{data.title}</div>
                             <div className="body2 text-secondary capitalize mt-2">{data.subTitle}</div>

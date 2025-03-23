@@ -16,35 +16,38 @@
     "shortDesc": "Nous modernisons la santé publique pour optimiser les opérations et améliorer l'efficacité, répondant ainsi aux attentes élevées des citoyens."
   },
   {
+    "id": "6bfcc716-24b4-4ed1-88f6-2ab7ac46f5cd",
     "icon": "GraduationCap",
     "category": "Secteur de l'Éducation",
     "title": "Secteur de l'Éducation",
-    "desc": "\"Nous soutenons les établissements éducatifs dans leur transformation numérique en intégrant des technologies innovantes pour moderniser l’apprentissage et la gestion administrative. En repensant les méthodes pédagogiques et en optimisant l’accès aux ressources numériques, nous contribuons à créer un environnement éducatif plus interactif, inclusif et performant. Notre approche vise à préparer l’école de demain en offrant aux élèves, enseignants et administrateurs des outils adaptés aux défis de l’éducation moderne",
-    "shortDesc": "Nous accompagnons les établissements éducatifs dans leur transformation numérique, façonnant l'école de demain.",
-    "id": "6bfcc716-24b4-4ed1-88f6-2ab7ac46f5cd"
+    "desc": "Nous soutenons les établissements éducatifs dans leur transformation numérique en intégrant des technologies innovantes pour moderniser l’apprentissage et la gestion administrative. En repensant les méthodes pédagogiques et en optimisant l’accès aux ressources numériques, nous contribuons à créer un environnement éducatif plus interactif, inclusif et performant. Notre approche vise à préparer l’école de demain en offrant aux élèves, enseignants et administrateurs des outils adaptés aux défis de l’éducation moderne",
+    "shortDesc": "Nous accompagnons les établissements éducatifs dans leur transformation numérique, façonnant l'école de demain."
+    
   },
   {
+    "id": "927b9dbd-0927-4d73-8c36-227cfb00bee1",
     "icon": "Student",
     "category": "Secteur de l'Enseignement Supérieur",
-    "title": "Secteur de l'Enseignement Supérieur",
+    "title": "Enseignement Supérieur",
     "desc": "Nous accompagnons les institutions d’enseignement supérieur dans leur transition numérique en mettant en place des solutions innovantes adaptées aux enjeux académiques et administratifs. Grâce à l’intégration de technologies avancées, nous facilitons l’accès aux ressources pédagogiques, optimisons la gestion des campus et améliorons l’expérience des étudiants et du corps enseignant. Notre approche vise à renforcer la compétitivité des établissements en leur permettant d’adopter des pratiques numériques modernes, tout en garantissant une formation de qualité et une administration efficace.",
-    "shortDesc": "Nous soutenons les institutions d'enseignement supérieur dans leur transition numérique, en proposant des solutions innovantes pour améliorer l'expérience éducative et administrative.",
-    "id": "927b9dbd-0927-4d73-8c36-227cfb00bee1"
+    "shortDesc": "Nous accompagnons les établissements dans leur transition avec des solutions innovantes éducative et administrative."
+    
   },
   {
+    "id": "2f130d3d-3ff3-4766-90d9-044061ffac76",
     "icon": "Scales",
     "category": "Secteur de la Justice",
     "title": "Secteur de la Justice",
     "desc": "Nous accompagnons la modernisation du système judiciaire en intégrant des solutions numériques qui optimisent les processus, renforcent l’efficacité administrative et facilitent l’accès à la justice pour tous. En développant des outils innovants pour la gestion des dossiers, la digitalisation des procédures et la sécurisation des données, nous contribuons à rendre le système judiciaire plus transparent, rapide et inclusif. Notre approche vise à améliorer l’expérience des professionnels du droit et des citoyens en leur offrant des services accessibles, fiables et conformes aux exigences légales",
-    "shortDesc": "Nous soutenons la modernisation du système judiciaire pour le rendre plus innovant et accessible à tous.",
-    "id": "2f130d3d-3ff3-4766-90d9-044061ffac76"
+    "shortDesc": "Nous soutenons la modernisation du système judiciaire pour le rendre plus innovant tout en garantissant une justice accessible à tous."    
   },
   {
+    "id": "d85d53b8-4916-430e-ad32-5272236bb3e0",
     "icon": "Bank",
     "category": "Secteur des Assurances",
     "title": "Secteur des Assurances",
-    "desc": "-Optimisation des Processus : Amélioration des processus internes pour accroître l'efficacité et réduire les coûts. \n-Expérience Client : Développement de solutions numériques pour améliorer l'expérience client et renforcer la fidélité. \n-Architecture d'Entreprise : Mise en place de pratiques méthodologiques basées sur des référentiels internationaux comme TOGAF, ArchiMate et SAFe, et utilisation d'outils comme Enterprise Architect. \n-Gouvernance des Données : Établissement de politiques et de pratiques pour garantir l'intégrité, la confidentialité et la disponibilité des informations, ainsi que l'élaboration de stratégies de données. \n",
-    "shortDesc": "Nous aidons les compagnies d'assurances à naviguer dans le paysage numérique en constante évolution. Nos services incluent :",
-    "id": "d85d53b8-4916-430e-ad32-5272236bb3e0"
+    "desc": "Nous aidons les compagnies d'assurances à naviguer dans le paysage numérique en constante évolution. Nos services incluent :\n-Optimisation des Processus : Amélioration des processus internes pour accroître l'efficacité et réduire les coûts. \n-Expérience Client : Développement de solutions numériques pour améliorer l'expérience client et renforcer la fidélité. \n-Architecture d'Entreprise : Mise en place de pratiques méthodologiques basées sur des référentiels internationaux comme TOGAF, ArchiMate et SAFe, et utilisation d'outils comme Enterprise Architect. \n-Gouvernance des Données : Établissement de politiques et de pratiques pour garantir l'intégrité, la confidentialité et la disponibilité des informations, ainsi que l'élaboration de stratégies de données. \n",
+    "shortDesc": "Nous aidons les compagnies d'assurances à naviguer dans le paysage numérique en constante évolution. Nos services incluent :"
+    
   }
 ]
