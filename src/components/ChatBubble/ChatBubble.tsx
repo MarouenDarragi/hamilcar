@@ -1,6 +1,7 @@
+
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import * as Icon from "@phosphor-icons/react"
 import { motion, AnimatePresence } from 'framer-motion'
 
@@ -55,6 +56,33 @@ export default function ChatBubble() {
   const [chatHistory, setChatHistory] = useState<Message[]>([])
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [threadId, setThreadId] = useState<string | null>(null)
+  const chatRef = useRef<HTMLDivElement>(null)
+  const messagesEndRef = useRef<HTMLDivElement>(null)
+  const buttonRef = useRef<HTMLButtonElement>(null)
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        isOpen &&
+        chatRef.current &&
+        buttonRef.current &&
+        !chatRef.current.contains(event.target as Node) &&
+        !buttonRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [isOpen])
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }, [chatHistory])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -72,7 +100,10 @@ export default function ChatBubble() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ message: message.trim() }),
+        body: JSON.stringify({ 
+          message: message.trim(),
+          threadId: threadId 
+        }),
       })
 
       if (!response.ok) {
@@ -83,6 +114,10 @@ export default function ChatBubble() {
       
       if (data.error) {
         throw new Error(data.error)
+      }
+
+      if (data.threadId) {
+        setThreadId(data.threadId)
       }
 
       setChatHistory(prev => [...prev, { 
@@ -102,6 +137,7 @@ export default function ChatBubble() {
       <AnimatePresence mode="wait">
         {isOpen && (
           <motion.div
+            ref={chatRef}
             variants={chatVariants}
             initial="hidden"
             animate="visible"
@@ -114,7 +150,7 @@ export default function ChatBubble() {
               transition={{ delay: 0.1 }}
               className="p-4 border-b border-gray-200 bg-gradient-to-r from-blue-500 to-blue-600"
             >
-              <h3 className="text-lg font-semibold text-blue animate__animated animate__fadeIn">Hamilcar Assistant</h3>
+              <h3 className="text-lg font-semibold text-bleu animate__animated animate__fadeIn">AI Assistant</h3>
             </motion.div>
             <motion.div 
               className="h-96 overflow-y-auto p-4"
@@ -135,7 +171,7 @@ export default function ChatBubble() {
                     whileHover={{ scale: 1.02 }}
                     className={`inline-block p-3 rounded-lg animate__animated ${
                       msg.role === 'user'
-                        ? 'bg-gray text-black animate__slideInRight'
+                        ? 'bg-blue text-black animate__slideInRight'
                         : 'bg-gray text-gray-800 animate__slideInLeft'
                     } shadow-md`}
                   >
@@ -160,35 +196,37 @@ export default function ChatBubble() {
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -10 }}
-                  className="text-center text-red-500 p-2 rounded-lg bg-red-50 animate__animated animate__shakeX"
+                  className="p-3 rounded-lg bg-red-50 text-red-500 text-center animate__animated animate__shakeX"
                 >
                   {error}
                 </motion.div>
               )}
+              <div ref={messagesEndRef} />
             </motion.div>
             <motion.form
+              onSubmit={handleSubmit}
+              className="p-4 border-t border-gray-200 bg-gray-50"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              onSubmit={handleSubmit}
-              className="p-4 border-t border-gray bg-gray"
             >
               <div className="flex gap-2">
                 <motion.input
-                  whileFocus={{ scale: 1.01 }}
                   type="text"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   placeholder="Type your message..."
-                  className="flex-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue focus:ring-1 focus:ring-blue transition-all duration-200"
+                  className="flex-1 p-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                  initial={{ scale: 0.95 }}
+                  animate={{ scale: 1 }}
+                  transition={{ delay: 0.4 }}
                 />
                 <motion.button
                   type="submit"
+                  disabled={isLoading || !message.trim()}
+                  className="bg-blue text-white p-2 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-blue text-white p-2 rounded-lg hover:bg-blue transition-colors duration-200 shadow-md"
-                  disabled={isLoading}
                 >
                   <Icon.PaperPlaneRight weight="fill" className="w-5 h-5" />
                 </motion.button>
@@ -198,21 +236,20 @@ export default function ChatBubble() {
         )}
       </AnimatePresence>
       <motion.button
-        whileHover={{ scale: 1.1, rotate: 5 }}
-        whileTap={{ scale: 0.9 }}
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
+        ref={buttonRef}
         onClick={() => setIsOpen(!isOpen)}
-        className={`bg-blue text-white p-4 rounded-full shadow-lg hover:bg-blue transition-colors duration-300 animate__animated ${
-          isOpen ? 'animate__rotateOut' : 'animate__bounceIn'
-        }`}
+        className="bg-blue text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition-colors"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        animate={isOpen ? { rotate: 180 } : { rotate: 0 }}
       >
         {isOpen ? (
           <Icon.X weight="bold" className="w-6 h-6" />
         ) : (
-          <Icon.ChatCircleText weight="fill" className="w-6 h-6" />
+          <Icon.ChatCircleText weight="fill" className="w-6 h-6 animate__animated animate__bounceIn" />
         )}
       </motion.button>
     </div>
   )
 }
+
