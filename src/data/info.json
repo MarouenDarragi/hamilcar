@@ -1,0 +1,12 @@
+{
+    "phone": "+1 234 567 890",
+    "email": "contact@example.com",
+    "address": "123 Business Street, New York, NY 10001",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d...",
+    "socialMedia": {
+      "facebook": "https://facebook.com/example",
+      "twitter": "https://twitter.com/example",
+      "instagram": "https://instagram.com/example",
+      "linkedin": "https://linkedin.com/company/example"
+    }
+  }

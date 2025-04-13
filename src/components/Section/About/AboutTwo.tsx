@@ -31,7 +31,7 @@ const AboutTwo = () => {
           <div className="heading3">Bienvenue chez Hamilcar</div>
           <div className="nav-infor mt-8">
             <div className="list-nav flex items-center gap-10 border-b border-line w-fit">
-              {["Histoire", "Philosophie", "Mission"].map((item, index) => (
+              {["Histoire", "Philosophie", "Mission", "Valeurs"].map((item, index) => (
                 <div
                   className={`text-button-sm has-line-before line-2px line-blue cursor-pointer capitalize ${
                     tabActive === item ? "active" : ""
@@ -128,6 +128,45 @@ const AboutTwo = () => {
             >
               <div className="title body3 text-secondary mt-4">
               Nous visons à propulser le succès de nos clients grâce à des services-conseils de haute qualité, portés par le professionnalisme et l'engagement de notre équipe. Les valeurs qui nous animent :
+
+              </div>
+              <div className="more-infor mt-6">
+                <div className="infor flex items-center gap-3">
+                  <Icon.CheckCircle
+                    weight="fill"
+                    className="text-blue text-xl"
+                  />
+                  <div className="text-button">
+                    Créativité et innovation
+                  </div>
+                </div>
+                <div className="infor flex items-center gap-3 mt-3">
+                  <Icon.CheckCircle
+                    weight="fill"
+                    className="text-blue text-xl"
+                  />
+                  <div className="text-button">
+                    Simplicité et efficacité
+                  </div>
+                </div>
+                <div className="infor flex items-center gap-3 mt-3">
+                  <Icon.CheckCircle
+                    weight="fill"
+                    className="text-blue text-xl"
+                  />
+                  <div className="text-button">
+                    Nouveauté et dynamisme
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className={`description item-filter ${
+                tabActive === "Valeurs" ? "show" : "hide"
+              }`}
+            >
+              <div className="title body3 text-secondary mt-4">
+              Nos valeurs sont la source de notre motivation et de notre engagement. Elles sont au cœur de notre travail et de notre relation avec nos clients.
 
               </div>
               <div className="more-infor mt-6">

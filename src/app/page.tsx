@@ -41,8 +41,9 @@ export default function Home() {
           <CounterFive classname="bg-surface rounded-2xl py-8 px-10 lg:mt-[100px] sm:mt-16 mt-10" />
           
           <Service title="Des services qui optimisent votre potentiel numérique" data={serviceData} />
-          <CaseStudyFour data={socialData} />
           <ProjectTwo />
+          <CaseStudyFour data={socialData} />
+          
           {/* <CaseStudyThree data={caseStudyData} /> */}
           <TestimonialFive data={testimonialData} />
           {/* <FormRequestFive /> */}

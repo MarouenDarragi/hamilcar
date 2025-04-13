@@ -10,6 +10,8 @@ import OurTeam from "@/components/Section/OurTeam/OurTeam";
  import CtaOne from "@/components/Section/CTA/CtaOne"
 // import Footer from "@/components/Footer/Footer"
 import PartnerSix from "@/components/Section/Partner/PartnerSix";
+import ProjectTwo from "@/components/Section/Project/ProjectTwo";
+
 
 export default function AboutStyleOne() {
   return (
@@ -17,18 +19,20 @@ export default function AboutStyleOne() {
     <div className="overflow-x-hidden">
       <main className="content">
         <BreadcrumbItem
-          link="About Us"
+          link="Acivites"
           img="/images/banner/about1.png"
-          title="A propos de Nous"
-          desc="Depuis la création, nous avons poursuivi notre mission d'aider les entreprises à mettre en œuvre des solutions innovantes pour leur transformation numérique. Nous cherchons à propulser le succès de nos clients grâce à des services-conseils de haute qualité, portés par le professionnalisme et l'engagement de notre équipe."
+          title="Nos activités"
+          desc="Nous sommes une équipe active et dynamique, travaillant en collaboration avec nos clients pour leurs besoins. Nous engageons envers la qualité et la satisfaction de nos clients. Nous engageons en prenant nos responsabilités sociales envers les entreprises et les personnes."
         />
-        <AboutTwo />
-        <CounterFive classname="lg:pb-[100px] sm:pb-16 pb-10" />
         
-        <OurTeam />
         
+        <Expertise data={ExpertiseData} />
+        <ProjectTwo />
+        
+        <PartnerAbout />
           {/* <PartnerSix classname="bg-blue lg:mt-[100px] sm:mt-16 mt-10" /> */}
           {/* <PartnerAbout /> */}
+
           <CtaOne />
         {/* <PartnerAbout /> */}
         {/* <CtaOne /> */}

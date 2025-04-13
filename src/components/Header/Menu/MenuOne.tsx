@@ -426,36 +426,16 @@ const MenuOne = () => {
 
               <li
                 className={`nav-item h-full flex items-center justify-center ${
-                  pathname.includes("/social/") ? "active" : ""
+                  pathname.includes("/activites") ? "active" : ""
                 }`}
               >
                 <Link
                   className="nav-link text-title flex items-center gap-1"
-                  href="/social"
+                  href="/activites"
                 >
-                  <span>Social</span>
-                  <span>
-                    <Icon.CaretDown className="text-sm" />
-                  </span>
+                  <span>Nos activités</span>
                 </Link>
-                <ul className="sub-nav">
-                  {socialData.slice(0, 3).map((social, index) => (
-                    <li
-                      key={`menu-social-detail-${social.id}`}
-                      className={`sub-nav-item ${
-                        pathname === "/social/" + social.slug ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        className="sub-nav-link font-medium"
-                        href={`/social/${social.title}`}
-                      >
-                        {social.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </li>
+              </li>             
 
               <li
                 className={`nav-item h-full flex items-center justify-center ${
@@ -464,7 +444,7 @@ const MenuOne = () => {
               >
                 <Link
                   className="nav-link text-title flex items-center gap-1"
-                  href="#!"
+                  href="/toolbox"
                 >
                   <span>Boite à Outils</span>
                   <span>
@@ -543,6 +523,39 @@ const MenuOne = () => {
 
               <li
                 className={`nav-item h-full flex items-center justify-center ${
+                  pathname.includes("/social/") ? "active" : ""
+                }`}
+              >
+                <Link
+                  className="nav-link text-title flex items-center gap-1"
+                  href="/social"
+                >
+                  <span>Social</span>
+                  <span>
+                    <Icon.CaretDown className="text-sm" />
+                  </span>
+                </Link>
+                <ul className="sub-nav">
+                  {socialData.slice(0, 3).map((social, index) => (
+                    <li
+                      key={`menu-social-detail-${social.id}`}
+                      className={`sub-nav-item ${
+                        pathname === "/social/" + social.slug ? "active" : ""
+                      }`}
+                    >
+                      <Link
+                        className="sub-nav-link font-medium"
+                        href={`/social/${social.title}`}
+                      >
+                        {social.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+
+              <li
+                className={`nav-item h-full flex items-center justify-center ${
                   pathname.includes("/contact") ? "active" : ""
                 }`}
               >
@@ -585,7 +598,7 @@ const MenuOne = () => {
                     className="nav-link-mobile flex items-center justify-between"
                     href="/"
                   >
-                    <span className="body2 font-semibold">Home </span>
+                    <span className="body2 font-semibold">Accueil</span>
                   </a>
                 </li>
                 <li
@@ -598,7 +611,7 @@ const MenuOne = () => {
                     className="nav-link-mobile flex items-center justify-between"
                     href="/about"
                   >
-                    <span className="body2 font-semibold">About </span>
+                    <span className="body2 font-semibold">A propos</span>
                   </a>
                 </li>
                 <li
@@ -616,6 +629,20 @@ const MenuOne = () => {
                 </li>
 
                 <li
+                  className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer activites ${
+                    openSubNavMobile === 3 ? "active" : ""
+                  }`}
+                  onClick={() => handleOpenSubNavMobile(3)}
+                >
+                  <a
+                    className="nav-link-mobile flex items-center justify-between"
+                    href="/activites"
+                  >
+                    <span className="body2 font-semibold">Nos activités </span>
+                  </a>
+                </li>
+
+                <li
                   className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer pages ${
                     openSubNavMobile === 4 ? "active" : ""
                   }`}
@@ -625,7 +652,7 @@ const MenuOne = () => {
                     className="nav-link-mobile flex items-center justify-between"
                     href="#!"
                   >
-                    <span className="body2 font-semibold">Pages </span>
+                    <span className="body2 font-semibold">Boites à outils </span>
                     <Icon.CaretRight className="text-base" />
                   </a>
                   <ul
