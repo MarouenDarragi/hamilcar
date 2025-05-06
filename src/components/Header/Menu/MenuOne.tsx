@@ -300,6 +300,7 @@ import * as Icon from "@phosphor-icons/react/dist/ssr";
 //import servicesData from "@/data/servicesData.json";
 import servicesData from "../../../../dataApi/services.json";
 import socialData from "@/data/socialData.json";
+import infoData from "../../../../dataApi/info.json";
 
 const MenuOne = () => {
   const pathname = usePathname();
@@ -307,7 +308,7 @@ const MenuOne = () => {
   // const [lastScrollPosition, setLastScrollPosition] = useState(0);
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
   const [openSubNavMobile, setOpenSubNavMobile] = useState<number | null>(null);
-
+  const phone = infoData.phone;
   const handleOpenSubNavMobile = (index: number) => {
     setOpenSubNavMobile(openSubNavMobile === index ? null : index);
   };
@@ -574,7 +575,7 @@ const MenuOne = () => {
             </div>
             <div className="text ml-3">
               <div className="text caption1">Conseil Gratuit</div>
-              <div className="number text-button">+123 456 7890</div>
+              <div className="number text-button">{phone}</div>
             </div>
             <div
               className="menu-humburger hidden pointer"

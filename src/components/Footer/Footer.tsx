@@ -1,8 +1,10 @@
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
-
+import infoData from '../../../dataApi/info.json';
 const Footer = () => {
+  const phone = infoData.phone;
+  const address = infoData.address;
   return (
     <div className="style-one">
       <div className="footer-block bg-dark pt-[60px]">
@@ -224,13 +226,13 @@ const Footer = () => {
                     <div className="caption2 text-surface">
                       Besoin de conseil? 24/7{" "}
                     </div>
-                    <div className="fw-700 text-white mt-1">001-1234-88888</div>
+                    <div className="fw-700 text-white mt-1">{phone}</div>
                   </div>
                 </div>
                 <div className="locate mt-3 flex items-center">
                   <Icon.MapPin weight="light" className="text-surface" />
                   <div className="caption1 text-surface ml-2">
-                    101 E 129th St, Montréal, QA 46312, CA
+                    {address}
                   </div>
                 </div>
 

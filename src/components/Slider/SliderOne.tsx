@@ -28,15 +28,15 @@ const SliderOne = () => {
             modules={[Pagination, Autoplay, Navigation]}
             className="h-full relative"
             autoplay={{
-              delay: 4000,
+              delay: 8000,
             }}
           >
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="slider-item slider-first">
                 <div className="bg-img">
                   <Image
-                    src={"/images/slider/1920x874.png"}
+                    src={"/images/slider/1920x874.mp4"}
                     width={4000}
                     height={3000}
                     alt="bgslider"
@@ -87,19 +87,83 @@ const SliderOne = () => {
                   </div>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
+            <SwiperSlide>
+  <div className="slider-item slider-first">
+    <div className="bg-img w-full h-full">
+      <video
+        className="w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="none"
+        poster="/images/slider/1920x874.jpg" // optionnel : miniature avant lecture
+      >
+        <source src="/images/slider/videos/slider_1.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo HTML5.
+      </video>
+    </div>
+    <div className="container">
+    <div className="text-content flex-columns-between">
+                    <div className="heading2">
+                      <div className="relative overflow-hidden">
+                        <span className="block relative overflow-hidden">
+                        Évaluez votre niveau
+                        </span>
+                        <span className="block absolute top-0 left-0 w-full h-full">
+                        Évaluez votre niveau
+                        </span>
+                      </div>
+                      <div className="relative overflow-hidden">
+                        <span className="block relative overflow-hidden">
+                        de numérisation et
+                        </span>
+                        <span className="block absolute top-0 left-0 w-full h-full">
+                        de numérisation et
+                        </span>
+                      </div>
+                      <div className="relative overflow-hidden">
+                        <span className=" text-blue block relative overflow-hidden">
+                        identifiez vos axes d'amélioration
+                        </span>
+                        <span className=" text-blue block absolute top-0 left-0 w-full h-full">
+                        identifiez vos axes d'amélioration
+                        </span>
+                      </div>
+                    </div>
+                    <div className="body2 mt-3 text-secondary">
+                    Notre outil d'évaluation gratuit vous aide à déterminer <br />
+                    où vous vous situez dans votre parcours numérique et à repérer les domaines nécessitant des améliorations. 
+                    </div>
+                    <div className="button-block md:mt-10 mt-6">
+                      <Link
+                        className="button-main bg-blue text-white"
+                        href="/service/service-one"
+                      >
+                        Commencez l'évaluation
+                      </Link>
+                    </div>
+                  </div>
+    </div>
+  </div>
+</SwiperSlide>
             <SwiperSlide>
               <div className="slider-item slider-second">
-                <div className="bg-img">
-                  <Image
-                    src={"/images/slider/1920x874.png"}
-                    width={4000}
-                    height={3000}
-                    alt="bgslider"
-                    priority={true}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+              <div className="bg-img w-full h-full">
+      <video
+        className="w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="none"
+        poster="/images/slider/1920x874.jpg" // optionnel : miniature avant lecture
+      >
+        <source src="/images/slider/videos/slider_2.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo HTML5.
+      </video>
+    </div>
 
                 <div className="container">
                   <div className="text-content flex-columns-between">
@@ -147,16 +211,20 @@ const SliderOne = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="slider-item slider-third">
-                <div className="bg-img">
-                  <Image
-                    src={"/images/slider/1920x874.png"}
-                    width={4000}
-                    height={3000}
-                    alt="bgslider"
-                    priority={true}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+              <div className="bg-img w-full h-full">
+      <video
+        className="w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="none"
+        poster="/images/slider/1920x874.jpg" // optionnel : miniature avant lecture
+      >
+        <source src="/images/slider/videos/slider_3.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo HTML5.
+      </video>
+    </div>
                 <div className="container">
                   <div className="text-content flex-columns-between">
                     <div className="heading2">
