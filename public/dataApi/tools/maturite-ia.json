@@ -1,0 +1,599 @@
+{
+  "title": "Évaluation de la maturité en IA",
+  "dimensions": [
+    {
+      "name": "Stratégie d'IA",
+      "couleur": "#0062ff",
+      "icon": "Strategy",
+      "descriptives": [
+        {
+          "name": "Développer et exécuter la stratégie d'IA",
+          "capacities": [
+            {
+              "capacite": "Surveiller et interpréter les tendances de l'IA",
+              "description": [
+                "La capacité d’établir des processus et des mécanismes de surveillance des tendances du marché et de l’industrie concernant l’utilisation de l’IA (par exemple, cas d’utilisation, études de cas).",
+                "La capacité d’établir les impacts de haut niveau des tendances de l’IA sur la faisabilité de l’IA pour l’organisation.\n"
+              ]
+            },
+            {
+              "capacite": "Développer et rationaliser l'ambition de l'IA",
+              "description": [
+                "La capacité d’établir une vision et une ambition à long terme en matière d’IA alignées sur les objectifs commerciaux, les besoins et les défis de l’organisation.",
+                "La capacité de déterminer l’état de préparation et la maturité de l’organisation (y compris les compétences, la technologie, l’organisation, le juridique) à adopter l’IA."
+              ]
+            },
+            {
+              "capacite": "Développer et affiner la stratégie d'IA",
+              "description": [
+                "La capacité d'élaborer un guide de stratégie d'IA pour l'adoption, l'expansion et/ou la mise à l'échelle de l'IA. Clarté des objectifs et des mesures.",
+                "La capacité de coordonner les stratégies d’IA avec les stratégies exécutives et l’innovation ascendante des unités commerciales.",
+                "La capacité de façonner et d’ensemencer de manière holistique un écosystème via une acquisition ou un partenariat (en interne ou en externe) pour soutenir les stratégies d’IA."
+              ]
+            },
+            {
+              "capacite": "Développer et coordonner la feuille de route stratégique de l'IA",
+              "description": [
+                "La capacité de développer une feuille de route d’IA de haut niveau avec des jalons à court et à long terme couvrant tous les aspects sociotechniques de l’IA.",
+                "La capacité de coordonner les feuilles de route de l’IA avec les parties prenantes."
+              ]
+            },
+            {
+              "capacite": "Innover/incuber l'IA",
+              "description": [
+                "La capacité à favoriser une culture de curiosité qui remet en question le statu quo, recherche proactivement des points de vue alternatifs et s'engage systématiquement dans une réflexion disruptive ou contradictoire. Encourager les communautés de pratique.",
+                "La capacité à identifier, évaluer, gérer et entretenir systématiquement les idées innovantes au sein de l'organisation, en veillant à ce que les concepts les plus prometteurs soient développés et déployés efficacement. La capacité à combiner une culture de l'innovation avec des processus structurés de gestion des idées."
+              ]
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "min": 0,
+          "max": 21,
+          "niveau": "Niveau 1",
+          "resume_niveau": "Très fragmenté/n'existe pas",
+          "motif": "Stratégie d'IA inexistante",
+          "description": "Il n'existe pas de document stratégique en matière d'IA. Les efforts déployés par l'organisation en matière d'IA manquent de vision et d'orientation, et les efforts sont mal coordonnés."
+        },
+        {
+          "min": 21,
+          "max": 40,
+          "niveau": "Niveau 2",
+          "resume_niveau": "Émergent/partiellement coordonné",
+          "motif": "Stratégie d'IA technique",
+          "description": "\nIl existe un document initial de stratégie en matière d'IA, mais il est de nature technique. Ce document et les efforts déployés par l'organisation en matière d'IA ne sont pas explicitement alignés sur la stratégie d'entreprise ni liés aux résultats opérationnels. Ce document peut également constituer un plan tactique ou une feuille de route, plutôt qu'une description de l'orientation stratégique et des moyens par lesquels l'organisation réussira à haut niveau."
+        },
+        {
+          "min": 41,
+          "max": 60,
+          "niveau": "Niveau 3",
+          "resume_niveau": "Aligné stratégiquement",
+          "motif": "Stratégie d'IA alignée sur l'entreprise",
+          "description": "Il existe un document stratégique en matière d'IA, aligné sur la stratégie d'entreprise. Cette stratégie se concentre sur les futures tendances sectorielles et technologiques et identifie les capacités nécessaires à sa mise en œuvre. L'organisation a une vision claire du rôle que l'IA jouera dans le développement de sa compétitivité. Des analyses de rentabilité formelles ont été réalisées pour les grandes initiatives en matière d'IA."
+        },
+        {
+          "min": 61,
+          "max": 80,
+          "niveau": "Niveau 4",
+          "resume_niveau": "Géré systématiquement",
+          "motif": "Stratégie d'IA intégrée à l'entreprise",
+          "description": "La stratégie d'IA est profondément ancrée dans la culture organisationnelle, bénéficiant d'une large adhésion et d'une participation active à tous les niveaux. Elle est pleinement intégrée et opérationnelle au sein de l'organisation, et le lien de causalité entre stratégie et résultats est évident. La proposition commerciale globale basée sur l'IA est bien comprise par les parties prenantes concernées de l'organisation. Un portefeuille formel offre une vision globale des investissements par rapport aux bénéfices et de la manière dont ces investissements soutiennent la stratégie commerciale."
+        },
+        {
+          "min": 81,
+          "max": 100,
+          "niveau": "Niveau 5",
+          "resume_niveau": "Adaptatif dynamiquement",
+          "motif": "Stratégie d'IA adaptative",
+          "description": "L'organisation a développé la capacité d'aligner en permanence sa stratégie d'IA sur l'évolution de l'environnement commercial et des tendances technologiques (et inversement, là où l'IA façonne l'activité). L'organisation est largement reconnue comme un leader de l'IA dans son secteur et possède une vision précise de la rapidité d'adoption d'une nouvelle tendance ou technologie en la matière. La stratégie d'entreprise est imprégnée d'IA, et le conseil d'administration la considère comme un facteur clé de réussite. L'IA est régulièrement mentionnée lors des conférences téléphoniques sur les résultats et des déclarations publiques. Effets de réseautage de la valeur."
+        }
+      ]
+    },
+    {
+      "name": "Potentiel de l'IA",
+      "couleur": "#6d9edf",
+      "icon": "TrendUp",
+      "descriptives": [
+        {
+          "name": "Gérer les cas d'utilisation et les portefeuilles de l'IA",
+          "capacities": [
+            {
+              "capacite": "Développer et gérer un portefeuille de cas d'utilisation de l'IA",
+              "description": [
+                "Cette capacité implique d'évaluer et de classer systématiquement les cas d'utilisation de l'IA en fonction de critères tels que le risque, la valeur, l'effort, la complexité et la faisabilité. Elle garantit l'allocation des ressources aux projets les plus performants et les plus viables.",
+                "Cette compétence vise à garantir l'adéquation des cas d'utilisation de l'IA et du portefeuille global avec les objectifs métier et les capacités informatiques. Elle implique une collaboration continue entre les métiers et l'informatique afin d'équilibrer risque et faisabilité, garantissant ainsi la cohérence stratégique et la synergie opérationnelle."
+              ]
+            },
+            {
+              "capacite": "Développer des propositions de valeur et des analyses de rentabilisation de l'IA",
+              "description": [
+                "La capacité d’établir systématiquement des analyses de rentabilisation claires, convaincantes et fondées sur des preuves pour les investissements dans l’IA qui obtiennent l’approbation et le financement de la direction.",
+                "La capacité de suivre et d’analyser les tendances du secteur et les meilleures pratiques en matière de gestion de portefeuille d’IA pour identifier les opportunités d’amélioration.\n",
+                "La capacité d'utiliser l'analyse, le suivi des mesures de performance et l'évaluation des résultats pour évaluer l'efficacité et le retour sur investissement des implémentations d'IA.",
+                "La capacité de garantir que les initiatives d’IA s’alignent sur les objectifs stratégiques, offrent une valeur commerciale tangible et démontrent un retour sur investissement positif."
+              ]
+            },
+            {
+              "capacite": "Développer des portefeuilles de produits d'IA",
+              "description": [
+                "La capacité à identifier les dynamiques du marché et les besoins des clients, sources d'opportunités optimales grâce aux produits d'IA. Cela implique la conception d'écosystèmes de produits cohérents garantissant l'interopérabilité, l'évolutivité et l'alignement stratégique entre différentes solutions d'IA.",
+                "La capacité à gérer le portefeuille de produits d'IA, notamment en évaluant et en améliorant les stratégies, les feuilles de route, les fonctionnalités et les processus produits, en réponse à la demande et aux besoins du marché. Cela implique également de présenter les opportunités de produits aux parties prenantes et aux prospects afin d'obtenir des financements et des investissements, ainsi que de communiquer les progrès, les risques et les avantages aux parties prenantes.",
+                "La capacité à obtenir des financements et des investissements pour les produits d'IA en présentant des opportunités aux parties prenantes et aux prospects. Cela inclut également la communication et la gestion du changement pour présenter le portefeuille de produits d'IA aux parties prenantes et aux investisseurs, garantissant ainsi transparence et harmonisation."
+              ]
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "min": 0,
+          "max": 21,
+          "niveau": "Niveau 1",
+          "resume_niveau": "Très fragmenté/n'existe pas",
+          "motif": "Pas de portefeuille cohérent",
+          "description": "La mise en œuvre de l'IA est un ensemble de projets distincts et de cas d'utilisation ponctuels. Aucun apprentissage partagé, aucune priorisation cohérente ni aucune approche de preuve de valeur n'est mise en œuvre. "
+        },
+        {
+          "min": 21,
+          "max": 40,
+          "niveau": "Niveau 2",
+          "resume_niveau": "Émergent/partiellement coordonné",
+          "motif": "Portefeuille d'IA émergente ",
+          "description": "Quelques exercices initiaux pour prioriser les cas d'utilisation et les investissements en IA, en tenant compte de la valeur métier, des risques, de la complexité et de la faisabilité. Identification des dépendances et des capacités communes requises. La performance du portefeuille d'IA n'est pas mesurée. Fournir des cas d'utilisation de base pour l'IA au quotidien aux équipes administratives."
+        },
+        {
+          "min": 41,
+          "max": 60,
+          "niveau": "Niveau 3",
+          "resume_niveau": "Aligné stratégiquement",
+          "motif": "Portefeuille d'IA aligné",
+          "description": "Le portefeuille reflète les priorités définies dans la stratégie et est parfaitement aligné sur la stratégie de l'entreprise. Les décisions sont prises au niveau du portefeuille afin d'équilibrer au mieux l'alignement stratégique, la valeur, les coûts et les risques. Le portefeuille prend en compte les risques et les interdépendances entre les initiatives. Nous avons identifié et continuons d'identifier de nouveaux modèles économiques pour/grâce à l'IA."
+        },
+        {
+          "min": 61,
+          "max": 80,
+          "niveau": "Niveau 4",
+          "resume_niveau": "Géré systématiquement",
+          "motif": "Gestion et mesure systématiques du portefeuille ",
+          "description": "L'organisation dispose d'un processus reproductible pour gérer son portefeuille d'IA, prenant des décisions systématiques sur l'ensemble optimal de cas d'utilisation, de projets et de produits d'IA. Elle est capable de financer, de gérer et de mesurer le succès des différentes parties du portefeuille selon le type d'objectif stratégique, comme la compétitivité, la différenciation, la disruption du marché et l'innovation. Un FinOps performant assure les opérations financières et l'optimisation des coûts."
+        },
+        {
+          "min": 81,
+          "max": 100,
+          "niveau": "Niveau 5",
+          "resume_niveau": "Adaptatif dynamiquement",
+          "motif": "Portefeuille d'IA dynamique",
+          "description": "Le portefeuille d'IA est optimisé en permanence pour s'adapter aux besoins métier et aux avancées technologiques. Extrêmement agile, il permet une redéfinition rapide des priorités grâce à des données en temps réel. Il privilégie l'amélioration continue, l'innovation et l'alignement stratégique. Utilise des analyses avancées pour optimiser les performances, garantir la création de valeur et atténuer les risques. Il prend en charge divers modèles économiques basés sur l'IA, générant ainsi un avantage concurrentiel. \n"
+        }
+      ]
+    },
+    {
+      "name": "Organisation de l'IA",
+      "couleur": "#24c9eb",
+      "icon": "SquaresFour",
+      "descriptives": [
+        {
+          "name": "Faire évoluer l'écosystème de l'IA et les modèles opérationnels",
+          "capacities": [
+            {
+              "capacite": "Développer des partenariats et des alliances externes pour l'IA",
+              "description": [
+                "La capacité d'évaluer et de suivre en continu les compétences, les ressources et les performances des partenaires externes au sein de l'écosystème de l'IA. Cela implique de s'assurer que ces partenaires répondent aux normes de l'organisation et peuvent contribuer efficacement à la réalisation des objectifs stratégiques de l'IA.",
+                "La capacité à créer et gérer des projets collaboratifs avec des partenaires externes afin de tirer parti de l'expertise et des ressources combinées. Cela implique de favoriser des relations solides et mutuellement bénéfiques pour stimuler l'innovation, partager les connaissances et atteindre des objectifs communs en matière d'IA."
+              ]
+            },
+            {
+              "capacite": "Gérer et équilibrer l'écosystème interne et externe",
+              "description": [
+                "La capacité de sélectionner des ressources appropriées à l’intérieur et à l’extérieur de l’organisation pour développer des produits, des propositions et des cas d’utilisation d’IA.",
+                "La capacité à évaluer les risques potentiels et les dépendances associés aux fournisseurs, partenaires et technologies d'IA externes. Cela comprend l'élaboration de stratégies pour atténuer ces risques, assurer la continuité des activités, réduire la dépendance et préserver l'intégrité et la fiabilité des opérations basées sur l'IA."
+              ]
+            },
+            {
+              "capacite": "Faire évoluer le modèle opérationnel interne",
+              "description": [
+                "Cette capacité implique l'examen et l'analyse systématiques du modèle opérationnel actuel et des réseaux internes informels de l'organisation. Elle permet notamment d'identifier les inefficacités, les lacunes en matière de communication et les axes d'amélioration afin d'optimiser les flux de travail et de renforcer la collaboration.",
+                "La capacité de concevoir des modèles opérationnels cibles pour répondre aux objectifs commerciaux ainsi que l'analyse des tactiques nécessaires pour passer d'un modèle opérationnel actuel à un tel modèle.",
+                "La capacité de créer des communautés d’excellence (CoE) et des réseaux d’expertise au sein de l’organisation et de gérer les méthodes de travail."
+              ]
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "min": 0,
+          "max": 21,
+          "niveau": "Niveau 1",
+          "resume_niveau": "Très fragmenté/n'existe pas",
+          "motif": "Meilleurs efforts avec le modèle opérationnel existant",
+          "description": "Les efforts en matière d'IA sont cloisonnés. Les partenariats externes sont rares, voire inexistants. Les initiatives sont expérimentales et manquent de direction, adoptant souvent une approche par projet ad hoc. Le développement de l'IA, lorsqu'il existe, est largement externalisé."
+        },
+        {
+          "min": 21,
+          "max": 40,
+          "niveau": "Niveau 2",
+          "resume_niveau": "Émergent/partiellement coordonné",
+          "motif": "Cadres opérationnels émergents et partenariats précoces",
+          "description": " \nFormation d'équipes, premiers partenariats. Les équipes internes commencent à se constituer et à se structurer. Des partenariats initiaux avec des prestataires externes ou des institutions universitaires sont établis. La nécessité de la collaboration est de plus en plus reconnue, mais les processus restent informels et incohérents."
+        },
+        {
+          "min": 41,
+          "max": 60,
+          "niveau": "Niveau 3",
+          "resume_niveau": "Aligné stratégiquement",
+          "motif": "Réseaux de systèmes émergents",
+          "description": "Les équipes internes d'IA sont clairement définies, avec des rôles et des responsabilités clairs. Des partenariats formels avec des entités externes sont établis et gérés de manière systématique. L'accent est mis sur le renforcement des capacités internes et la valorisation de l'expertise externe. Des cadres de collaboration sont en place et une approche stratégique du développement des équipes et de la gestion des partenariats est mise en place."
+        },
+        {
+          "min": 61,
+          "max": 80,
+          "niveau": "Niveau 4",
+          "resume_niveau": "Géré systématiquement",
+          "motif": "Intégré, spécialisé et stratégique",
+          "description": "Les équipes internes d'IA sont pleinement intégrées aux opérations de l'organisation et travaillent en étroite collaboration avec les autres services. Les partenariats stratégiques avec des entités externes sont gérés activement et alignés sur les objectifs commerciaux. L'accent est mis sur le partage des connaissances et les initiatives de développement conjoint. Les collaborations internes et externes sont optimisées pour un bénéfice mutuel. Les modèles opérationnels peuvent adopter une grande variété de technologies et de méthodologies et évoluer rapidement si nécessaire."
+        },
+        {
+          "min": 81,
+          "max": 100,
+          "niveau": "Niveau 5",
+          "resume_niveau": "Adaptatif dynamiquement",
+          "motif": "sociotechnique adaptative",
+          "description": "Les équipes internes d'IA sont dynamiques, hautement qualifiées et capables de s'adapter aux nouveaux défis. Les partenariats avec les entités externes sont flexibles et évoluent en fonction de l'évolution des besoins et des opportunités. Il existe une culture d'apprentissage et d'amélioration continue, fortement axée sur l'innovation. L'organisation exploite efficacement les ressources internes et externes pour favoriser les avancées en IA et atteindre ses objectifs stratégiques. Elle évolue vers une orchestration des ressources « à la demande »."
+        }
+      ]
+    },
+    {
+      "name": "Culture de l'IA",
+      "couleur": "#eb9824",
+      "icon": "UsersThree",
+      "descriptives": [
+        {
+          "name": "Favoriser la connaissance et la culture de l'IA",
+          "capacities": [
+            {
+              "capacite": "Gérer la culture et le changement pour/en raison de l'IA",
+              "description": [
+                "La capacité de développer des compétences en gestion du changement et de surveiller leur succès en définissant et en suivant des indicateurs clés de performance (KPI) de gestion du changement.",
+                "La capacité de communiquer les positions et les décisions de l’entreprise concernant le développement et la gouvernance de l’IA, y compris les parties internes et externes.",
+                "La capacité à créer une culture organisationnelle favorable aux technologies d'IA et à favoriser un état d'esprit d'innovation et d'adaptation continue. Cela implique l'élaboration et la mise en œuvre de stratégies de gestion du changement pour garantir des transitions fluides, l'adhésion des employés et l'alignement sur les objectifs de l'IA."
+              ]
+            },
+            {
+              "capacite": "Faire évoluer les rôles et le personnel pour/grâce à l'IA",
+              "description": [
+                "Cette capacité implique de prévoir l'impact des technologies d'IA sur les rôles, les responsabilités et la dynamique des effectifs. Cela comprend l'analyse des évolutions potentielles de la demande de main-d'œuvre et l'identification des domaines dans lesquels les compétences humaines compléteront les systèmes d'IA.",
+                "Cette compétence vise à évaluer les compétences actuelles des collaborateurs en matière de technologies d'IA et à identifier les lacunes à combler. Elle comprend l'évaluation des compétences techniques et relationnelles requises pour une intégration efficace de l'IA.",
+                "La capacité à élaborer des plans stratégiques pour aligner les effectifs sur les transformations induites par l'IA, garantissant ainsi l'adaptation de l'organisation aux avancées technologiques. Cela comprend la création de feuilles de route pour l'évolution des rôles, la requalification et la restructuration des effectifs.",
+                "La capacité d'identifier et d'attirer des personnes possédant l'expertise nécessaire en IA pour répondre aux besoins organisationnels. Cela implique de tirer parti de divers canaux de recrutement, partenariats et viviers de talents pour trouver les meilleurs candidats."
+              ]
+            },
+            {
+              "capacite": "Fournir des compétences, une formation et une alphabétisation en matière d'IA",
+              "description": [
+                "Cette compétence se concentre sur la conception et la mise en œuvre de programmes de formation visant à améliorer les compétences des collaborateurs en IA. Elle comprend la facilitation de l'apprentissage continu, la mise à niveau des compétences et la promotion d'une culture de partage des connaissances pour suivre le rythme des avancées de l'IA.",
+                "Cette capacité consiste à évaluer l'impact et les résultats des programmes de formation en IA afin de garantir qu'ils répondent aux objectifs organisationnels. Elle comprend l'utilisation d'indicateurs et de retours d'information pour évaluer les améliorations des compétences, des performances et de la productivité globale."
+              ]
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "min": 0,
+          "max": 21,
+          "niveau": "Niveau 1",
+          "resume_niveau": "Très fragmenté/n'existe pas",
+          "motif": "Pas de programme d'alphabétisation ; des voix solitaires",
+          "description": "L'IA est peu ou pas connue au sein de l'organisation. Les initiatives en la matière sont isolées et manquent de soutien de la part de la direction et des employés. Il n'existe aucun programme formel de formation ou de développement lié à l'IA. La culture organisationnelle est réticente au changement et les avantages et les risques potentiels de l'IA sont mal compris."
+        },
+        {
+          "min": 21,
+          "max": 40,
+          "niveau": "Niveau 2",
+          "resume_niveau": "Émergent/partiellement coordonné",
+          "motif": "Des bases mondiales avec des poches d'excellence locale ",
+          "description": "L'intérêt initial pour l'IA se développe au sein de certaines équipes ou services. Des programmes de formation et de sensibilisation de base sont mis en place, mais ils sont peu répandus et se concentrent souvent sur des sous-ensembles plus restreints de technologies et de pratiques d'IA. La collaboration autour des projets d'IA est sporadique et souvent motivée par l'enthousiasme individuel plutôt que par un effort coordonné. Les dirigeants commencent à reconnaître l'importance de l'IA, mais l'alignement stratégique reste limité."
+        },
+        {
+          "min": 41,
+          "max": 60,
+          "niveau": "Niveau 3",
+          "resume_niveau": "Aligné stratégiquement",
+          "motif": "Programmes à l'échelle de l'organisation par personne",
+          "description": "Les rôles et responsabilités en matière d'IA sont clairement définis au sein de l'organisation. Des programmes de formation formels sont mis en place pour développer les compétences et les connaissances en IA. Le travail d'équipe et la collaboration sur les projets d'IA sont structurés. La direction soutient activement les initiatives d'IA, et le niveau de maîtrise de l'IA est modéré au sein de l'organisation. La gestion du changement est efficace et la culture commence à évoluer vers l'adoption de l'IA et de l'innovation."
+        },
+        {
+          "min": 61,
+          "max": 80,
+          "niveau": "Niveau 4",
+          "resume_niveau": "Géré systématiquement",
+          "motif": "Apprentissage et culture optimales prouvées",
+          "description": "L'IA est activement intégrée aux opérations et aux processus décisionnels de l'organisation. Des équipes transversales collaborent harmonieusement sur les projets d'IA, tirant parti de compétences et de perspectives diverses. Des programmes de formation et de développement continus sont en place pour suivre les avancées de l'IA, et leur productivité peut être mesurée. La direction soutient les initiatives d'IA, et il existe une forte adéquation entre les efforts déployés en la matière et les objectifs de l'entreprise. La culture organisationnelle est ouverte au changement et à l'innovation, avec un engagement généralisé dans les activités d'IA."
+        },
+        {
+          "min": 81,
+          "max": 100,
+          "niveau": "Niveau 5",
+          "resume_niveau": "Adaptatif dynamiquement",
+          "motif": "Personnalisé et dynamique",
+          "description": "L'organisation privilégie l'IA, profondément ancrée dans sa culture et ses opérations. La maîtrise de l'IA est omniprésente à tous les niveaux, et les employés cherchent activement à l'exploiter pleinement dans leurs fonctions. L'apprentissage continu et l'innovation sont des valeurs fondamentales, soutenues par des programmes de formation et de développement avancés. La direction considère l'IA comme une priorité stratégique et reconnaît son potentiel de transformation. L'organisation est largement reconnue comme un leader en IA, avec une culture qui favorise la créativité, la collaboration et l'engagement proactif dans les initiatives liées à l'IA."
+        }
+      ]
+    },
+    {
+      "name": "Gouvernance de l'IA",
+      "couleur": "#86a419",
+      "icon": "ShieldCheck",
+      "descriptives": [
+        {
+          "name": "Gouverner l'IA et gérer les risques",
+          "capacities": [
+            {
+              "capacite": "Créer, maintenir et faire évoluer les politiques et les contrôles de gouvernance de l'IA",
+              "description": [
+                "La capacité de créer, de maintenir et d'appliquer des contrôles et des politiques de gouvernance de l'IA en définissant et en affinant les modèles d'éthique, en s'alignant sur les parties prenantes et en développant des spécifications de politique éthique détaillées pour la surveillance de la gouvernance.",
+                "La capacité d'identifier les risques liés à l'IA, de définir des mesures d'atténuation, de développer des spécifications de politique de risque pour la surveillance de la gouvernance et de surveiller et d'ajuster les politiques à l'aide d'un tableau de bord coordonné piloté par des indicateurs clés de performance techniques.",
+                "La capacité de surveiller les tendances et les menaces en matière de sécurité et de sûreté de l'IA pour les modèles, les applications et les agents. Cela comprend l'élaboration de politiques complètes de supervision de la gouvernance ; la garantie de la protection des données, de la gestion des accès, de la classification des données et de la protection de la charge de travail de l'IA ; et la mise en œuvre de protocoles de sécurité pour un déploiement et un fonctionnement sécurisés des systèmes d'IA.",
+                "La capacité à suivre le paysage juridique et réglementaire, à élaborer des stratégies et à gérer les résolutions. La capacité à communiquer les politiques et contrôles juridiques et réglementaires pour le développement sous forme de processus, de code ou de modèles. La capacité à relier les indicateurs clés de performance techniques des systèmes aux indicateurs clés de performance et tableaux de bord métier.",
+                "La capacité à garantir que l’IA est utilisée de manière durable d’un point de vue des coûts et de la société, ainsi que l’utilisation des technologies de l’IA pour garantir des initiatives plus larges de durabilité des entreprises."
+              ]
+            },
+            {
+              "capacite": "Développer des modèles opérationnels et des équipes de gouvernance de l'IA",
+              "description": [
+                "La capacité de constituer et de maintenir des équipes de gouvernance interfonctionnelles qui incluent à la fois des représentants technologiques et commerciaux pour assurer une supervision et une collaboration efficaces au sein de l'organisation.",
+                "La capacité d’établir des processus décisionnels et des structures d’autorité clairs, d’identifier et d’impliquer les principales parties prenantes, de coordonner les attentes et de gérer les conflits potentiels, garantissant ainsi la transparence et la responsabilité.",
+                "La capacité de définir le but, les objectifs et les limites des initiatives de gouvernance ; d’élaborer un mandat complet décrivant la portée et les responsabilités ; et de le communiquer efficacement à toutes les parties prenantes concernées.",
+                "La mise en place de mécanismes cohérents pour garantir le respect des politiques de gouvernance, gérer les exceptions et faire remonter les problèmes afin de garantir la conformité aux exigences de gouvernance établies."
+              ]
+            },
+            {
+              "capacite": "Ingénieur supervise les systèmes et applique les politiques",
+              "description": [
+                "La capacité à concevoir, développer et déployer des systèmes et processus de supervision de la gouvernance en réponse aux politiques et contrôles opérationnels. Cela comprend l'évolution de l'architecture d'entreprise pour prendre en charge ces systèmes, la tenue d'un registre des systèmes d'IA nécessitant une supervision et de leurs interdépendances, l'instrumentation des ressources d'IA pour l'observation, l'intégration avec d'autres systèmes opérationnels (par exemple, DevOps, SecOps, MLOps, DataOps) et la coordination des efforts de déploiement.",
+                "La capacité à surveiller et à appliquer les politiques d'exécution consiste à superviser les données, les modèles et les applications d'IA ; à garantir la sécurité des modèles ; à détecter les anomalies ; à maintenir un filtrage d'IA responsable ; à sécuriser les applications d'IA ; à gérer la conformité ; et à observer les activités des agents d'IA et à les aligner sur les intentions. La surveillance des systèmes d'IA pour détecter les modèles de données, la réalisation de tests de sécurité, la validation des contrôles de risque et de confiance, la gestion des rapports de conformité et l'évaluation de l'impact humain de la supervision de la gouvernance."
+              ]
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "min": 0,
+          "max": 21,
+          "niveau": "Niveau 1",
+          "resume_niveau": "Très fragmenté/n'existe pas",
+          "motif": "Aucune gouvernance ni normes. ",
+          "description": "Il n'existe aucune structure ni politique formelle de gouvernance de l'IA. Les initiatives en matière d'IA manquent de coordination et de supervision, ce qui peut engendrer des risques et des inefficacités. L'organisation ne maîtrise pas encore parfaitement les implications éthiques, juridiques et opérationnelles de l'IA."
+        },
+        {
+          "min": 21,
+          "max": 40,
+          "niveau": "Niveau 2",
+          "resume_niveau": "Émergent/partiellement coordonné",
+          "motif": "Gouvernance des meilleurs efforts",
+          "description": "Un premier ensemble de politiques et de lignes directrices de gouvernance de l'IA est élaboré, mais celles-ci sont basiques, principalement réactives et liées aux cas d'utilisation. Les efforts de gouvernance sont principalement motivés par des exigences de conformité plutôt que par un alignement stratégique. La connaissance et l'adhésion à ces politiques sont limitées au sein de l'organisation."
+        },
+        {
+          "min": 41,
+          "max": 60,
+          "niveau": "Niveau 3",
+          "resume_niveau": "Aligné stratégiquement",
+          "motif": "Équilibrer la gouvernance centrale et la gouvernance périphérique",
+          "description": "Les structures et politiques de gouvernance de l'IA sont bien définies et documentées. Un cadre clair de gestion des risques, de l'éthique et de la conformité est en place. Les processus de gouvernance sont standardisés et appliqués de manière cohérente à l'ensemble des initiatives d'IA. Les parties prenantes connaissent les politiques de gouvernance et leur adhésion est modérée. "
+        },
+        {
+          "min": 61,
+          "max": 80,
+          "niveau": "Niveau 4",
+          "resume_niveau": "Géré systématiquement",
+          "motif": "Gouvernance proactive",
+          "description": "La gouvernance de l'IA est pleinement intégrée aux opérations et aux processus décisionnels de l'organisation. Les politiques de gouvernance sont alignées sur les objectifs commerciaux, gérées activement et conçues pour intégrer l'IA à grande échelle. Les initiatives en matière d'IA font l'objet d'une supervision et d'une responsabilisation rigoureuses. Les parties prenantes de l'organisation sont impliquées et s'engagent à respecter les politiques de gouvernance."
+        },
+        {
+          "min": 81,
+          "max": 100,
+          "niveau": "Niveau 5",
+          "resume_niveau": "Adaptatif dynamiquement",
+          "motif": "Gouvernance adaptative",
+          "description": "L'organisation dispose d'un cadre de gouvernance de l'IA dynamique et adaptatif, qui évolue avec l'évolution des besoins métier et des avancées technologiques. Les politiques de gouvernance sont continuellement améliorées grâce aux retours d'expérience et aux nouvelles connaissances. L'organisation est reconnue comme un leader en matière de pratiques éthiques et responsables en matière d'IA. La gouvernance de l'IA est profondément ancrée dans la culture organisationnelle, bénéficiant d'une adhésion généralisée et d'un engagement proactif de toutes les parties prenantes."
+        }
+      ]
+    },
+    {
+      "name": "Développement de l'IA",
+      "couleur": "#9b24eb",
+      "icon": "Code",
+      "descriptives": [
+        {
+          "name": "Concevoir et exploiter des systèmes et des plateformes d'IA",
+          "capacities": [
+            {
+              "capacite": "Développer, tester et intégrer des applications et des systèmes d'IA",
+              "description": [
+                "La capacité à concevoir des systèmes et des applications d'IA, en commençant par des prototypes et des preuves de concept (POC) et en passant à une conception prête pour la production. La capacité à fournir des cadres et un support pour développer des applications répondant aux objectifs commerciaux à long terme. La mise en place de mécanismes et d'une gouvernance pour la transition (arrêt/amélioration/mise à l'échelle).",
+                "La capacité à développer des applications basées sur l'IA, à entraîner des modèles d'IA et à créer des expériences qui ravissent les utilisateurs. La capacité à intégrer ces composants applicatifs dans des applications orientées utilisateur, à vérifier qu'ils répondent aux attentes des utilisateurs et à les préparer au déploiement.",
+                "La capacité de gérer les actifs liés au développement de solutions d'IA telles que les bibliothèques de codes, les magasins de fonctionnalités, les portefeuilles de modèles, la documentation de solutions, les bibliothèques d'invites et les modèles de conception d'IA.",
+                "La capacité d’identifier, d’évaluer, de contracter et de gérer l’exécution et les performances continues des fournisseurs/solutions.",
+                "La capacité d’évaluer différents modèles, algorithmes, cadres et pratiques d’IA pour déterminer leur efficacité, leur précision et leur évolutivité et, par conséquent, leur adéquation à des tâches spécifiques.",
+                "La capacité d'évaluer la fonctionnalité, l'ergonomie et les performances globales des applications et systèmes intégrant des technologies d'IA. Cela comprend des tests de bout en bout, des tests d'acceptation utilisateur et des évaluations de performances pour garantir une intégration fluide et un fonctionnement fiable en situation réelle.",
+                "Développer et mettre en œuvre des stratégies pour identifier, surveiller et atténuer la dette technique des systèmes d'IA, en équilibrant les modèles de valeur et les considérations de coûts afin de garantir la maintenabilité et l'évolutivité à long terme. Favoriser une culture d'amélioration continue en exploitant les opportunités et les risques associés à la dette technique et en optimisant le code, les modèles et l'infrastructure afin de maximiser la valeur et de minimiser la dégradation des performances."
+              ]
+            },
+            {
+              "capacite": "Déployer, exploiter et faire évoluer les systèmes d'IA",
+              "description": [
+                "La capacité de créer des stratégies de déploiement (en temps réel/par lots, sur site/cloud) et des environnements pour prendre en charge le déploiement de systèmes d'IA.",
+                "La capacité d’exploiter les systèmes d’IA conformément aux niveaux de service convenus, d’effectuer une maintenance proactive et d’appliquer des correctifs et des mises à jour.",
+                "La capacité de faire évoluer les systèmes d’IA grâce à des méthodes telles que la planification des capacités/infrastructures et de développer des méthodes de mise à l’échelle horizontale et verticale."
+              ]
+            },
+            {
+              "capacite": "Gérer les portefeuilles de projets, de plateformes et d'applications",
+              "description": [
+                "La capacité de déterminer les impacts et les opportunités de l'IA sur le portefeuille d'applications actuel et de développer des feuilles de route stratégiques pour faire évoluer le portefeuille pour/en raison de l'IA.",
+                "La capacité à établir un processus complet d'optimisation du flux de valeur, du concept initial à la livraison de produits et services basés sur l'IA. Cela implique une approche holistique de la gestion et de l'amélioration du cycle de vie complet des projets d'ingénierie IA, garantissant que chaque étape apporte de la valeur ajoutée et s'aligne sur les objectifs de l'entreprise.",
+                "La capacité à gérer les outils et plateformes utilisés pour l'ingénierie de l'IA, couvrant des aspects tels que la compatibilité des outils, la gestion des mises à jour et les tests de régression, tout en garantissant des performances optimales. La capacité à présenter et à proposer une expérience de plateforme en libre-service convaincante aux développeurs professionnels et citoyens.",
+                "La capacité d’obtenir et de gérer le financement et l’investissement pour les projets d’IA et de gérer les parties prenantes."
+              ]
+            },
+            {
+              "capacite": "Développer et gérer des équipes d'ingénierie IA",
+              "description": [
+                "La capacité de constituer des équipes de produits et d'ingénierie pour les systèmes d'IA qui combinent l'IA, les applications, les E&S, la sécurité et d'autres dimensions dans une équipe de livraison de flux de valeur.",
+                "La capacité à gérer un vivier d'ingénieurs en IA et à les affecter à des projets en fonction des besoins métier, des parties prenantes et des exigences techniques internes. L'affectation du personnel peut concerner l'architecture, la conception, le développement, l'exploitation des systèmes et la supervision.",
+                "La capacité à mesurer l'efficacité du personnel et des équipes d'IA afin de déterminer des dimensions telles que l'efficacité et la création de valeur client. La capacité à identifier les opportunités d'amélioration et à les mettre en œuvre. La capacité à mesurer l'expérience des développeurs pour les équipes d'ingénierie IA."
+              ]
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "min": 0,
+          "max": 21,
+          "niveau": "Niveau 1",
+          "resume_niveau": "Très fragmenté/n'existe pas",
+          "motif": "Ingénierie IA ad hoc",
+          "description": "Les efforts d'ingénierie de l'IA sont peu structurés et manquent de processus formels. Les projets sont traités au cas par cas, avec une documentation et une normalisation minimales. Les pratiques d'ingénierie de l'IA exposent l'organisation à des risques et ne parviennent souvent pas à apporter de valeur ajoutée aux clients. L'expertise en IA est limitée à quelques personnes, et il n'existe pas de stratégie cohérente en la matière. Les outils et technologies utilisés sont rudimentaires et non optimisés pour le développement de l'IA."
+        },
+        {
+          "min": 21,
+          "max": 40,
+          "niveau": "Niveau 2",
+          "resume_niveau": "Émergent/partiellement coordonné",
+          "motif": "Cadres d'ingénierie de base de l'IA",
+          "description": "Les premiers cadres et processus d'ingénierie de l'IA sont en cours de développement. Les modèles d'IA sont livrés de manière semi-structurée, mais leur adéquation aux besoins métier ou à leur utilisation par les applications est limitée. Des efforts de normalisation des pratiques sont en cours, mais elles manquent encore de cohérence entre les projets. Les outils et technologies de base sont en place, et l'accent est mis de plus en plus sur la documentation et la reproductibilité. La collaboration entre les ingénieurs en IA s'améliore, mais reste limitée. L'organisation commence à investir dans le développement des compétences et des capacités en ingénierie de l'IA."
+        },
+        {
+          "min": 41,
+          "max": 60,
+          "niveau": "Niveau 3",
+          "resume_niveau": "Aligné stratégiquement",
+          "motif": "Ingénierie de l'IA standardisée",
+          "description": "Les pratiques d'ingénierie de l'IA sont clairement définies et standardisées au sein de l'organisation. Un cadre clair régit l'ensemble du cycle de vie de l'IA, du développement au déploiement et à la maintenance. Des outils et technologies avancés sont adoptés pour rationaliser les efforts d'ingénierie de l'IA. Les nouvelles compétences en ingénierie de l'IA associent des équipes multidisciplinaires pour créer des produits basés sur l'IA qui répondent aux besoins de l'entreprise. Les équipes de plateforme et d'ingénierie de l'IA collaborent activement avec les équipes de la chaîne de valeur pour encourager une utilisation sûre et appropriée de l'IA. Des pratiques efficaces de communication et de gestion de projet sont en place. L'apprentissage continu et le développement des compétences sont encouragés."
+        },
+        {
+          "min": 61,
+          "max": 80,
+          "niveau": "Niveau 4",
+          "resume_niveau": "Géré systématiquement",
+          "motif": "Ingénierie de l'IA fusionnelle/collaborative",
+          "description": "Les opérations d'ingénierie IA sont optimisées pour plus d'efficacité et d'évolutivité, et l'organisation dispose d'une infrastructure et d'outils robustes pour soutenir des pratiques d'ingénierie IA avancées. L'accent est mis sur l'automatisation, l'intégration continue et le déploiement continu (CI/CD). Les modèles d'IA sont régulièrement surveillés et mis à jour pour garantir leurs performances et leur fiabilité. La supervision du développement est intégrée à toutes les fonctions d'ingénierie. Les équipes transverses travaillent en toute fluidité, s'appuyant sur des expertises diverses pour stimuler l'innovation en IA. Des méthodes de collaboration avancées sont utilisées avec les rôles métiers tels que les responsables produits et les experts métier. Une culture d'amélioration continue et d'innovation est en place, et les équipes en charge de la chaîne de valeur métier sollicitent activement les contributions des équipes plateformes et ingénierie IA."
+        },
+        {
+          "min": 81,
+          "max": 100,
+          "niveau": "Niveau 5",
+          "resume_niveau": "Adaptatif dynamiquement",
+          "motif": "Ingénierie de l'IA adaptative et innovante",
+          "description": "L'organisation dispose d'un cadre d'ingénierie IA dynamique qui évolue avec la technologie et les besoins métier. Les pratiques d'ingénierie IA sont sophistiquées et utilisent des outils et méthodologies d'IA de pointe. L'IA est l'une des nombreuses capacités d'ingénierie qui peuvent être intégrées de manière transparente aux flux de valeur et aux solutions métier. Les équipes IA collaborent étroitement avec les fonctions clés de D&A (ingénieurs et data scientists) pour favoriser la réutilisation, développer des réseaux de compétences et réduire la dette technique IA. L'accent est mis sur l'innovation et encourage l'expérimentation. L'organisation excelle dans le déploiement de l'IA à grande échelle grâce à un suivi et une gouvernance rigoureux. L'ingénierie IA est ancrée dans la culture, avec une expertise et un engagement étendus. Reconnue comme un leader, elle génère une valeur ajoutée significative grâce à des solutions d'IA avancées."
+        }
+      ]
+    },
+    {
+      "name": "Donnée",
+      "couleur": "#b4bbca",
+      "icon": "Database",
+      "descriptives": [
+        {
+          "name": "Préparer et gérer les données pour l'IA",
+          "capacities": [
+            {
+              "capacite": "Gérer et gouverner les données de l'IA",
+              "description": [
+                "Capacité à élaborer et mettre en œuvre des cadres et des politiques de gouvernance des données complets. Définition des rôles, des responsabilités et de la reddition de comptes en matière de gouvernance des données au sein de l'organisation. Révision et mise à jour régulières des politiques de gouvernance pour les adapter à l'évolution de la réglementation et aux avancées technologiques."
+              ]
+            },
+            {
+              "capacite": "",
+              "description": []
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "min": 0,
+          "max": 21,
+          "niveau": "Niveau 1",
+          "resume_niveau": "Très fragmenté/n'existe pas",
+          "motif": "Développement et utilisation limités des données d'IA",
+          "description": ""
+        },
+        {
+          "min": 21,
+          "max": 40,
+          "niveau": "Niveau 2",
+          "resume_niveau": "",
+          "motif": "",
+          "description": ""
+        },
+        {
+          "min": 41,
+          "max": 60,
+          "niveau": "Niveau 3",
+          "resume_niveau": "",
+          "motif": "",
+          "description": ""
+        },
+        {
+          "min": 61,
+          "max": 80,
+          "niveau": "Niveau 4",
+          "resume_niveau": "",
+          "motif": "",
+          "description": ""
+        },
+        {
+          "min": 81,
+          "max": 100,
+          "niveau": "Niveau 5",
+          "resume_niveau": "",
+          "motif": "",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "Index_G": [
+    {
+      "min": 0,
+      "max": 21,
+      "niveau": "Niveau 1 ",
+      "resume_niveau": "Planification",
+      "description": "Il n'existe pas de document stratégique en matière d'IA. Les efforts déployés par l'organisation en matière d'IA manquent de vision et d'orientation, et les efforts sont mal coordonnés."
+    },
+    {
+      "min": 21,
+      "max": 40,
+      "niveau": "Niveau 2 ",
+      "resume_niveau": "Expérimenter",
+      "description": "Il existe un document initial de stratégie en matière d'IA, mais il est de nature technique. Ce document et les efforts déployés par l'organisation en matière d'IA ne sont pas explicitement alignés sur la stratégie d'entreprise ni liés aux résultats opérationnels. Ce document peut également constituer un plan tactique ou une feuille de route, plutôt qu'une description de l'orientation stratégique et des moyens par lesquels l'organisation réussira à haut niveau."
+    },
+    {
+      "min": 41,
+      "max": 60,
+      "niveau": "Niveau 3 ",
+      "resume_niveau": "Stabilisation",
+      "description": "Il existe un document stratégique en matière d'IA, aligné sur la stratégie d'entreprise. Cette stratégie se concentre sur les futures tendances sectorielles et technologiques et identifie les capacités nécessaires à sa mise en œuvre. L'organisation a une vision claire du rôle que l'IA jouera dans le développement de sa compétitivité. Des analyses de rentabilité formelles ont été réalisées pour les grandes initiatives en matière d'IA."
+    },
+    {
+      "min": 61,
+      "max": 80,
+      "niveau": "Niveau 4 ",
+      "resume_niveau": "Avancé",
+      "description": "La stratégie d'IA est profondément ancrée dans la culture organisationnelle, bénéficiant d'une large adhésion et d'une participation active à tous les niveaux. Elle est pleinement intégrée et opérationnelle au sein de l'organisation, et le lien de causalité entre stratégie et résultats est évident. La proposition commerciale globale basée sur l'IA est bien comprise par les parties prenantes concernées de l'organisation. Un portefeuille formel offre une vision globale des investissements par rapport aux bénéfices et de la manière dont ces investissements soutiennent la stratégie commerciale."
+    },
+    {
+      "min": 81,
+      "max": 89,
+      "niveau": "Niveau 5 ",
+      "resume_niveau": "Optimisé",
+      "description": "L'organisation a développé la capacité d'aligner en permanence sa stratégie d'IA sur l'évolution de l'environnement commercial et des tendances technologiques (et inversement, là où l'IA façonne l'activité). L'organisation est largement reconnue comme un leader de l'IA dans son secteur et possède une vision précise de la rapidité d'adoption d'une nouvelle tendance ou technologie en la matière. La stratégie d'entreprise est imprégnée d'IA, et le conseil d'administration la considère comme un facteur clé de réussite. L'IA est régulièrement mentionnée lors des conférences téléphoniques sur les résultats et des déclarations publiques. Effets de réseautage de la valeur."
+    }
+  ]
+}

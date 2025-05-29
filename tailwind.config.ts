@@ -22,6 +22,7 @@ const config: Config = {
       'blue': '#2868D8',
       'critical': '#EB4D4D',
       'success': '#37CC8E',
+      'indigo': '#4B0082',
       'orange': '#EA603F',
       'white': '#FFFFFF',
       'deep-purple': '#15143B',
@@ -32,6 +33,8 @@ const config: Config = {
       'dark-purple': '#130E38',
       'placehover': '#B1B1B1',
       'yellow': '#F2C94C',
+      'green': '#18d63e',
+      
       'line': 'rgba(0, 0, 0, 0.1)',
     },
   },

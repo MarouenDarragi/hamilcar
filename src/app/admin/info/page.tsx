@@ -1,25 +1,3 @@
-// 'use client';
-// import Sidebar from "@/components/Admin/Sidebar";
-// import InfoForm from '@/components/info/InfoForm';
-// import { ToastContainer } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
-
-// export default function InfoPage() {
-//   return (
-//     <div className="min-h-screen bg-gray-50 py-8">
-//              <div className="fixed top-0 left-0 h-full w-64 bg-blue shadow-lg transform transition-transform duration-300 ease-in-out md:translate-x-0 md:block">
-//                 <Sidebar />
-//             </div>
-//       <div className="container mx-auto">
-//         <h1 className="text-3xl font-bold text-center mb-8">
-//           General Information Management
-//         </h1>
-//         <InfoForm />
-//       </div>
-//       <ToastContainer position="bottom-right" />
-//     </div>
-//   );
-// }
 
 'use client';
 
