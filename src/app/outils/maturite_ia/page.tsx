@@ -117,7 +117,7 @@ export default function MaturiteIAForm(){
           <MenuOne /> */}
          </header>
          <main className="content">
-    <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-lg p-8 space-y-10">
+    <div className="max-w-screen-xl mx-auto bg-white shadow-xl rounded-lg p-8 space-y-10">
 
       {/* barre d’étapes (wizard) --------------------------------- */}
       <div className="flex items-center">

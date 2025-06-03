@@ -1,0 +1,503 @@
+{
+  "titre": "Outil de maturité numérique",
+  "dimensions": [
+    {
+      "nom": "Valorisation des données",
+      "couleur": "#d960fb",
+      "icone": "SquaresFour",
+      "description": "À travers cette dimension, l’organismes démontrera sa capacité à exploiter les données en tant qu’actif stratégique pour soutenir la prise de décision, la réussite éducative et la recherche. ",
+      "metriques": [
+        {
+          "nom": "metrique1",
+          "question": {
+            "intitule": "L'objectif de cette partie est de mesurer les leviers et les mécanismes de gouvernance de données disponibles dans votre organisation.\nEn vous basant sur les énoncés ci-après, quelle situation parmi les suivantes correspond le mieux à votre organisation?",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "r1'Notre organisation :\n-n'a pas encore mis en place une structure de gouvernance de donnée  \n-n'a pas encore défini des cadres, pratiques, politiques pour guider et orienter la gestion des données  (incluant sécurité de l'information, PRP)\n-n'a pas défini une stratégie/vision de donnée",
+                "transition": "ggggggggggg",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "'Notre organisation\n- a mis en place quelques mécanismes de gouvernance de données  (principalement lié à la sécurité de l'information et la PRP)\n- a démarré des reflexions sur la gouvernance de donnée portée par les TI \n- offre un encadrement réactif au besoin. ",
+                "transition": "ggggggggg",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "'Notre organisation:\n-dispose d'un cadre de gouvernance de donnée défini et communiqué à l'échelle de l'organisation \n- a une stratégie de donnée définie par les TI  \n- a défini quelques cadres, politiques et directives pour guider et orienter la gestion des données  (ex. la sécurité de l'information, PRP)",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "'Notre organisation:\n-a une structure de gouvernance de donnée complètement mise en œuvre et opérationnelle (Ex. Chef et intendants de données désignés)\n- a défini une stratégie de donnée  (Affaires et TI) \n- dispose de politiques, directives et cadres en vigueur et surveillés pour guider et orienter la gestion des données  ",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "'Notre organisation  :\n- a instauré une gouvernance de donnée parfaitement intégrée \n- a accès à des cadres, des politiques et des processus révisés et suivi en continue afin de guider et orienter de façon optimale la gestion des données\n- anticipe les incidents et les gère proactivement",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        },
+        {
+          "nom": "metrique 2",
+          "question": {
+            "intitule": "qestion metrique 2",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        },
+        {
+          "nom": "Nouvelle métrique",
+          "question": {
+            "intitule": "",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        },
+        {
+          "nom": "Nouvelle métrique",
+          "question": {
+            "intitule": "",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        },
+        {
+          "nom": "Nouvelle métrique",
+          "question": {
+            "intitule": "",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        }
+      ],
+      "pondération": 5
+    },
+    {
+      "nom": "dim2",
+      "couleur": "#60a5fa",
+      "icone": "SquaresFour",
+      "description": "desq dim 2",
+      "metriques": [
+        {
+          "nom": "metrique1",
+          "question": {
+            "intitule": "question metrique 1",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "f",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "fffffffffffff",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "f",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "ffffffff",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "ffffffffffffffffffff",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        },
+        {
+          "nom": "metrique 2 ",
+          "question": {
+            "intitule": "question metrique 2 ",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "r",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "r",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "r",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "r",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "r",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        }
+      ],
+      "pondération": 2
+    },
+    {
+      "nom": "Nouvelle dimension",
+      "couleur": "#60a5fa",
+      "icone": "SquaresFour",
+      "description": "",
+      "pondération": 1,
+      "metriques": [
+        {
+          "nom": "Nouvelle métrique",
+          "question": {
+            "intitule": "",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nom": "Nouvelle dimension",
+      "couleur": "#60a5fa",
+      "icone": "SquaresFour",
+      "description": "",
+      "pondération": 1,
+      "metriques": [
+        {
+          "nom": "Nouvelle métrique",
+          "question": {
+            "intitule": "",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nom": "Nouvelle dimension",
+      "couleur": "#60a5fa",
+      "icone": "SquaresFour",
+      "description": "",
+      "pondération": 1,
+      "metriques": [
+        {
+          "nom": "Nouvelle métrique",
+          "question": {
+            "intitule": "",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nom": "Nouvelle dimension",
+      "couleur": "#60a5fa",
+      "icone": "SquaresFour",
+      "description": "",
+      "pondération": 1,
+      "metriques": [
+        {
+          "nom": "Nouvelle métrique",
+          "question": {
+            "intitule": "",
+            "reponses": [
+              {
+                "niveau": "Niveau 1",
+                "contenu": "",
+                "transition": "",
+                "cote": 20
+              },
+              {
+                "niveau": "Niveau 2",
+                "contenu": "",
+                "transition": "",
+                "cote": 40
+              },
+              {
+                "niveau": "Niveau 3",
+                "contenu": "",
+                "transition": "",
+                "cote": 60
+              },
+              {
+                "niveau": "Niveau 4",
+                "contenu": "",
+                "transition": "",
+                "cote": 80
+              },
+              {
+                "niveau": "Niveau 5",
+                "contenu": "",
+                "transition": "",
+                "cote": 100
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "indexGlobal": [
+    {
+      "min": 0,
+      "max": 25,
+      "titre": "Réactive",
+      "description": ""
+    },
+    {
+      "min": 26,
+      "max": 50,
+      "titre": "Débutante",
+      "description": ""
+    },
+    {
+      "min": 51,
+      "max": 75,
+      "titre": "Émergente",
+      "description": ""
+    },
+    {
+      "min": 76,
+      "max": 100,
+      "titre": "Avancée",
+      "description": ""
+    }
+  ]
+}
